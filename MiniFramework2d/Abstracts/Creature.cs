@@ -5,6 +5,7 @@ using MiniFramework2d.Enums;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Items;
 using MiniFramework2d.Utilities;
+using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d.Abstracts
 {
@@ -28,10 +29,16 @@ namespace MiniFramework2d.Abstracts
         public int HealthCurrent { get; set; }
         public int Attack { get; set; }
         public int Defense { get; set; }
+        public bool Dead { get; set; }
 
-        public virtual void Act()
+        public virtual void Act(World currentMap)
         {
             
+        }
+
+        public bool CheckCollision(IExistInWorld obj)
+        {
+            return Position.Equals(obj.Position);
         }
     }
 }

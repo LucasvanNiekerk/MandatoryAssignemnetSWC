@@ -6,6 +6,6 @@ namespace MiniFramework2d.Interfaces
 {
     public interface IAct
     {
-        void Act();
+        void Act(World currentWorld);
     }
 }
