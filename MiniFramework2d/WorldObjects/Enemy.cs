@@ -14,7 +14,7 @@ namespace MiniFramework2d.WorldObjects
 
         public override void Act(World currentMap)
         {
-            base.Act(currentMap);
+            
         }
     }
 }

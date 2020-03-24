@@ -9,7 +9,7 @@ namespace MiniFramework2d
 {
     public class World
     {
-        public IExistInWorld[,] Map { get; set; }
+        public IWorldObject[,] Map { get; set; }
 
         public int Height { get; }
         public int Width { get; }
@@ -20,7 +20,7 @@ namespace MiniFramework2d
         /// <param name="map"></param>
         /// <param name="height"></param>
         /// <param name="width"></param>
-        public World(IExistInWorld[,] map, int height, int width)
+        public World(IWorldObject[,] map, int height, int width)
         {
             Map = map;
             Height = height;
@@ -39,9 +39,9 @@ namespace MiniFramework2d
             Width = width;
         }
 
-        private IExistInWorld[,] GenerateRandomMap(int height, int width)
+        private IWorldObject[,] GenerateRandomMap(int height, int width)
         {
-            IExistInWorld[,] result = new IExistInWorld[height, width];
+            IWorldObject[,] result = new IWorldObject[height, width];
             Random random = new Random();
 
             for (int i = 0; i < height; i++)

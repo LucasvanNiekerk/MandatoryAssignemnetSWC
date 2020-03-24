@@ -6,10 +6,15 @@ using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.Abstracts
 {
-    public abstract class Creature: WorldObject, IAct
+    //Template class?
+    public abstract class Creature: IWorldObject, IAct
     {
-        protected Creature(string name, string description, Point position, int healthMax, int attack) : base(name, description, position)
+        protected Creature(string name, string description, Point position, int healthMax, int attack)
         {
+            Name = name;
+            Description = description;
+            Position = position;
+
             _healthMax = healthMax;
             HealthCurrent = healthMax;
             _attack = attack;
@@ -77,10 +82,8 @@ namespace MiniFramework2d.Abstracts
             return damageDealt;
         }
 
-        public virtual void Act(World currentMap)
-        {
-            
-        }
+        public abstract void Act(World currentMap);
+        
 
         public void RecieveDamage(int amount)
         {
@@ -92,9 +95,13 @@ namespace MiniFramework2d.Abstracts
             HealthCurrent = _healthMax;
         }
 
-        public bool CheckCollision(IExistInWorld obj)
+        public bool CheckCollision(IWorldObject obj)
         {
             return this.Position.Equals(obj.Position);
         }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public Point Position { get; set; }
     }
 }

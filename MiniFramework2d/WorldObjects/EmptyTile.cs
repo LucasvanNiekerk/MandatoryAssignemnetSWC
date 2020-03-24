@@ -6,7 +6,7 @@ using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.WorldObjects
 {
-    public class EmptyTile: IExistInWorld
+    public class EmptyTile: IWorldObject
     {
         public EmptyTile(Point position)
         {
@@ -16,6 +16,8 @@ namespace MiniFramework2d.WorldObjects
             ContainsEvent = random.Next(1) == 0;
         }
 
+        public string Name { get; set; }
+        public string Description { get; set; }
         public Point Position { get; set; }
 
         public bool ContainsEvent { get; }

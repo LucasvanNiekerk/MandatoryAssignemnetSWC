@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MiniFramework2d.Abstracts;
+using MiniFramework2d.Interfaces;
 using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d
@@ -12,20 +13,18 @@ namespace MiniFramework2d
         private World _world;
         private List<Creature> _actors;
         /// <summary>
-        /// You can import your own world or you can generate a random world.
+        /// You can import your own world or you can generate a random world. By either give your own map[] or simply state how big it should be (mind you it is extreamly random at the moment).
         /// </summary>
         /// <param name="world"></param>
         /// <param name="player"></param>
         /// <param name="enemies"></param>
         public GameInitiazier(World world, Player player, List<Enemy> enemies)
         {
-            
             _world = world;
 
             _actors = new List<Creature>();
             _actors.Add(player);
             _actors.AddRange(enemies);
-
         }
         public void Start()
         {
@@ -46,7 +45,27 @@ namespace MiniFramework2d
                 {
                     if (currentActor.CheckCollision(otherActor))
                     {
-                        Combat(currentActor, otherActor);
+                        switch (otherActor as IWorldObject)
+                        {
+                            case Dungeon dungeon:
+                                Console.WriteLine("Scary dungeon lots of enemies, fight or die!");
+                                break;
+                            case EmptyTile emptyTile:
+                                if(emptyTile.ContainsEvent) Console.WriteLine("EVENT WOHOO");
+                                break;
+                            case Enemy enemy:
+                                Combat(currentActor, otherActor);
+                                break;
+                            case Player player:
+                                Combat(currentActor, otherActor);
+                                break;
+                            case Town town:
+                                currentActor.HealToFullHealth();
+                                break;
+                            case Water water:
+                                Console.WriteLine("Howd you even get here!?");
+                                break;
+                        }
                     }
                 });
             }

@@ -13,7 +13,7 @@ namespace Tester
     {
         public void Start()
         {
-            World world = new World(new IExistInWorld[5,5], 5, 5);
+            World world = new World(new IWorldObject[5,5], 5, 5);
             for (int i = 0; i < world.Width; i++)
             {
                 for (int j = 0; j < world.Height; j++)
