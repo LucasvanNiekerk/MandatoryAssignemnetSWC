@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MiniFramework2d.Abstracts;
-using MiniFramework2d.Enums;
-using MiniFramework2d.Interfaces;
 using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d
@@ -12,14 +10,17 @@ namespace MiniFramework2d
     public class GameInitiazier
     {
         private World _world;
-        private Player _player;
-        private List<Enemy> _enemies;
         private List<Creature> _actors;
+        /// <summary>
+        /// You can import your own world or you can generate a random world.
+        /// </summary>
+        /// <param name="world"></param>
+        /// <param name="player"></param>
+        /// <param name="enemies"></param>
         public GameInitiazier(World world, Player player, List<Enemy> enemies)
         {
+            
             _world = world;
-            _player = player;
-            _enemies = enemies;
 
             _actors = new List<Creature>();
             _actors.Add(player);
@@ -38,25 +39,33 @@ namespace MiniFramework2d
 
         private void Update()
         {
-            _actors.ForEach(actor => 
-            { 
-                actor.Act(_world);
-                _actors.Where(a => a != actor).ToList().ForEach(act =>
+            foreach (Creature currentActor in _actors)
+            {
+                currentActor.Act(_world);
+                _actors.Where(a => a != currentActor).ToList().ForEach(otherActor =>
                 {
-                    if (actor.CheckCollision(act))
+                    if (currentActor.CheckCollision(otherActor))
                     {
-                        Combat(actor, act);
+                        Combat(currentActor, otherActor);
                     }
                 });
-            });
+            }
         }
 
-        private void Combat(Creature firstObj, Creature secondObj)
+        private void Combat(Creature currentActor, Creature otherActor)
         {
-            while (firstObj.Dead || secondObj.Dead)
+            while (!currentActor.Dead || !otherActor.Dead)
             {
-                //Todo Fix damage, defense and resistence inside creature..
-                //secondObj.HealthCurrent - (firstObj.Attack - secondObj.Defense) * secondObj.Equipment.
+                otherActor.RecieveDamage(otherActor-currentActor);
+                if (!otherActor.Dead)
+                {
+                    currentActor.RecieveDamage(currentActor-otherActor);
+
+                    if (otherActor.Dead)
+                    {
+
+                    }
+                }
             }
         }
     }

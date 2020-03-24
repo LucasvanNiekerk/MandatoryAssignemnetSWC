@@ -21,7 +21,7 @@ namespace Tester
                     world.Map[i,j] = new EmptyTile(new Point(i, j));
                 }
             }
-            Player player = new Player("Hero Alba", "A hero on a journay", new Point(5,5), 10, 5, 2);
+            Player player = new Player("Hero Alba", "A hero on a journay", new Point(5,5), 10, 2);
             List<Enemy> enemies = new List<Enemy>();
 
             GameInitiazier game = new GameInitiazier(world, player, enemies);

@@ -25,12 +25,18 @@ namespace MiniFramework2d.Items
             EnumLists.WeaponTypeList.ToList().ForEach(attack => _weapons.Add(attack, null));
         }
 
-        public int Damage
+        public (AttackType[], int[]) Damage() 
         {
-            get
+            int[] damage = new int[2];
+            AttackType[] attackType = new AttackType[2];
+            for (int i = 0; i < 2; i++)
             {
-                return _weapons.Values.ToList().Sum(weapon => weapon.Attack);
+                damage[i] = _weapons.ToArray()[i].Value.Attack;
+                attackType[i] = _weapons.ToArray()[i].Value.Type;
             }
+
+            return (attackType, damage);
+            //_weapons.Values.ToList().Sum(weapon => weapon.Attack);
         }
 
         public int Defense

@@ -9,9 +9,8 @@ namespace MiniFramework2d.WorldObjects
 {
     public class Player: Creature
     {
-        public Player(string name, string description, Point position, int healthMax, int attack, int defense) : base(name, description, position, healthMax, attack, defense)
+        public Player(string name, string description, Point position, int healthMax, int attack) : base(name, description, position, healthMax, attack)
         {
-
         }
 
         public override void Act(World currentMap)
@@ -47,5 +46,7 @@ namespace MiniFramework2d.WorldObjects
             }
             Console.WriteLine("x: " + Position.X + "y: " + Position.Y);
         }
+
+        
     }
 }
