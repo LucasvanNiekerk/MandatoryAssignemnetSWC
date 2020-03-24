@@ -6,9 +6,9 @@ using MiniFramework2d.Interfaces;
 
 namespace MiniFramework2d.Items
 {
-    public class Gear : IComparable<Gear>
+    public class Gear : IComparable<Gear>, IItem
     {
-        public Gear(GearType itemSlot, string description, int defense, Dictionary<AttackType, int> resistences)
+        public Gear(GearType itemSlot, string description, int defense, Dictionary<AttackType, float> resistences)
         {
             ItemSlot = itemSlot;
             Description = description;
@@ -20,7 +20,7 @@ namespace MiniFramework2d.Items
         public string Description { get; set; }
 
         public int Defense { get; set; }
-        public Dictionary<AttackType, int> Resistences { get; set; }
+        public Dictionary<AttackType, float> Resistences { get; set; }
 
         public int CompareTo(Gear other)
         {

@@ -7,7 +7,7 @@ using MiniFramework2d.Interfaces;
 
 namespace MiniFramework2d.Items
 {
-    public class Weapon : IComparable<Weapon>
+    public class Weapon : IComparable<Weapon>, IItem
     {
         public Weapon(WeaponType itemSlot, string description, int attack, AttackType type)
         {
