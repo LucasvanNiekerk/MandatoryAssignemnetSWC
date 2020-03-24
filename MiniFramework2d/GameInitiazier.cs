@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using MiniFramework2d.Abstracts;
 using MiniFramework2d.Interfaces;
+using MiniFramework2d.Utilities;
 using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d
@@ -23,6 +24,10 @@ namespace MiniFramework2d
             _world = world;
 
             _actors = new List<Creature>();
+
+            //To prevent the player from spawning outside the world...
+            player.Position = new Point(world.Height/2, world.Width/2);
+
             _actors.Add(player);
             _actors.AddRange(enemies);
         }

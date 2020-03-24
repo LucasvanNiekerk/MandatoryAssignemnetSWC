@@ -18,8 +18,6 @@ namespace MiniFramework2d.Abstracts
             _healthMax = healthMax;
             HealthCurrent = healthMax;
             _attack = attack;
-
-            Inventory = new List<Gear>();
             _equipment = new EquipedGear();
         }
 
@@ -27,8 +25,6 @@ namespace MiniFramework2d.Abstracts
         private int _healthCurrent;
         private EquipedGear _equipment;
         private int _healthMax;
-
-        public List<Gear> Inventory { get; }
 
         public int HealthCurrent
         {
@@ -98,6 +94,16 @@ namespace MiniFramework2d.Abstracts
         public bool CheckCollision(IWorldObject obj)
         {
             return this.Position.Equals(obj.Position);
+        }
+
+        public void EquipNewGear(Gear gear)
+        {
+            _equipment.AddGear(gear);
+        }
+
+        public void EquipNewWeapon(Weapon weapon)
+        {
+            _equipment.AddWeapon(weapon);
         }
 
         public string Name { get; set; }

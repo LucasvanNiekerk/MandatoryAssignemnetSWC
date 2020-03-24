@@ -6,7 +6,7 @@ using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.Factories
 {
-    class GearFactory: IFactory
+    public class GearFactory: IFactory
     {
         public Gear GetGear(GearType typeOfClass)
         {

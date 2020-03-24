@@ -1,6 +1,6 @@
 ﻿namespace MiniFramework2d.Interfaces
 {
-    interface IFactory
+    public interface IFactory
     {
     }
 }

@@ -36,7 +36,7 @@ namespace MiniFramework2d.Items
             }
 
             return (attackType, damage);
-            //_weapons.Values.ToList().Sum(weapon => weapon.Attack);
+            //_weapons.Values.ToList().Sum(newWeapon => newWeapon.Attack);
         }
 
         public int Defense
@@ -57,6 +57,22 @@ namespace MiniFramework2d.Items
         public void AddWeapon(Weapon weapon)
         {
             _weapons[weapon.ItemSlot] = weapon;
+        }
+
+        public void AddOnlyIfBetterGear(Gear newGear)
+        {
+            if (_equipment[newGear.ItemSlot].CompareTo(newGear) < 0)
+            {
+                AddGear(newGear);
+            }
+        }
+
+        public void AddOnlyIfBetterWeapon(Weapon newWeapon)
+        {
+            if (_weapons[newWeapon.ItemSlot].CompareTo(newWeapon) < 0)
+            {
+                AddWeapon(newWeapon);
+            }
         }
     }
 }

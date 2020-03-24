@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MiniFramework2d;
 using MiniFramework2d.Enums;
+using MiniFramework2d.Factories;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
 using MiniFramework2d.WorldObjects;
@@ -23,6 +24,25 @@ namespace Tester
             }
             Player player = new Player("Hero Alba", "A hero on a journay", new Point(5,5), 10, 2);
             List<Enemy> enemies = new List<Enemy>();
+
+            WeaponFactory wf = new WeaponFactory();
+            GearFactory gf = new GearFactory();
+
+            Random rng = new Random();
+            foreach (var enemy in enemies)
+            {
+                foreach (var gearType in EnumLists.GearTypeList)
+                {
+                    enemy.EquipNewGear(gf.GetGear(gearType));
+                }
+
+                //All enemies have a main and offhand weapon.
+                foreach (var weaponType in EnumLists.WeaponTypeList)
+                {
+                    enemy.EquipNewWeapon(wf.GetWeapon(weaponType));
+                }
+                
+            }
 
             GameInitiazier game = new GameInitiazier(world, player, enemies);
 

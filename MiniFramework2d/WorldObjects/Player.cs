@@ -30,12 +30,12 @@ namespace MiniFramework2d.WorldObjects
                     if (Position.Y+1 != currentMap.Height) Position.Y += 1;
                     else Movement(currentMap);
                     break;
-                case ConsoleKey.D:
+                case ConsoleKey.A:
                     if (Position.X - 1 != -1) Position.X -= 1; 
                     else Movement(currentMap);
                     break;
-                case ConsoleKey.A:
-                    if (Position.X + 1 != currentMap.Height) Position.Y += 1; 
+                case ConsoleKey.D:
+                    if (Position.X + 1 != currentMap.Height) Position.X += 1; 
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.Escape:
@@ -45,6 +45,7 @@ namespace MiniFramework2d.WorldObjects
                     break;
             }
             Console.WriteLine("x: " + Position.X + "y: " + Position.Y);
+            Debug.WriteLine("World Height and Width" + currentMap.Height + " " + currentMap.Width);
         }
 
         
