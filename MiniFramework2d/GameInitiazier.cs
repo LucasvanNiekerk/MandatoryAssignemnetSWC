@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using MiniFramework2d.Abstracts;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
@@ -37,6 +40,7 @@ namespace MiniFramework2d
 
             while (running)
             {
+                _world.PrintMap(_actors);
                 Update();
             }
         }
@@ -53,7 +57,7 @@ namespace MiniFramework2d
                         switch (otherActor as IWorldObject)
                         {
                             case Dungeon dungeon:
-                                Console.WriteLine("Scary dungeon lots of enemies, fight or die!");
+                                dungeon.Event(currentActor);
                                 break;
                             case EmptyTile emptyTile:
                                 if(emptyTile.ContainsEvent) Console.WriteLine("EVENT WOHOO");
@@ -73,22 +77,37 @@ namespace MiniFramework2d
                         }
                     }
                 });
+                Thread.Sleep(500);
+            }
+
+            List<Creature> deadCreatures = new List<Creature>();
+            for (int i = 0; i < _actors.Count; i++)
+            {
+                if (_actors[i].Dead)
+                {
+                    deadCreatures.Add(_actors[i]);
+                    
+                }
+            }
+
+            foreach (var deadCreature in deadCreatures)
+            {
+                _actors.Remove(deadCreature);
             }
         }
 
         private void Combat(Creature currentActor, Creature otherActor)
         {
-            while (!currentActor.Dead || !otherActor.Dead)
+            // The two actors fight until one of them dies.
+            while (!currentActor.Dead && !otherActor.Dead)
             {
+                // Current actor attack the target found aka other actor.
                 otherActor.RecieveDamage(otherActor-currentActor);
+
+                // If the other actor survived he retaliates.
                 if (!otherActor.Dead)
                 {
-                    currentActor.RecieveDamage(currentActor-otherActor);
-
-                    if (otherActor.Dead)
-                    {
-
-                    }
+                    currentActor.RecieveDamage(currentActor - otherActor);
                 }
             }
         }

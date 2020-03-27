@@ -4,7 +4,7 @@ using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.WorldObjects
 {
-    public class Town: IWorldObject
+    public class Town: IWorldObject, IEvent
     {
         public Town(string name, string description, Point position)
         {
@@ -16,5 +16,11 @@ namespace MiniFramework2d.WorldObjects
         public string Name { get; set; }
         public string Description { get; set; }
         public Point Position { get; set; }
+
+
+        public void Event(Creature actor)
+        {
+            actor.HealToFullHealth();
+        }
     }
 }

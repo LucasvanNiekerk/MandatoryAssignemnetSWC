@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Items;
@@ -15,10 +16,12 @@ namespace MiniFramework2d.Abstracts
             Description = description;
             Position = position;
 
-            _healthMax = healthMax;
             HealthCurrent = healthMax;
+            _healthMax = healthMax;
             _attack = attack;
             _equipment = new EquipedGear();
+
+            Dead = false;
         }
 
         private int _attack;
@@ -31,7 +34,7 @@ namespace MiniFramework2d.Abstracts
             get => _healthCurrent;
             set
             {
-                if (value >= 0) Dead = true;
+                if (value <= 0) Dead = true;
                 _healthCurrent = value;
             }
         }
@@ -104,6 +107,11 @@ namespace MiniFramework2d.Abstracts
         public void EquipNewWeapon(Weapon weapon)
         {
             _equipment.AddWeapon(weapon);
+        }
+
+        public (List<Gear> gear, List<Weapon> weapons) DropItems()
+        {
+            return _equipment.DropItems();
         }
 
         public string Name { get; set; }

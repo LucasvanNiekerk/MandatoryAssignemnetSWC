@@ -11,13 +11,13 @@ namespace MiniFramework2d.Factories
         public Gear GetGear(GearType typeOfClass)
         {
             Gear temp = new Gear(GearType.Chest, 
-                RandomInformation.RandomDescription(GearType.Chest.ToString()), 
-                RandomInformation.RandomInteger(0, 10), 
+                RandomInformation.Description(GearType.Chest.ToString()), 
+                RandomInformation.Integer(0, 10), 
                 new Dictionary<AttackType, float>());
 
             foreach (AttackType type in EnumLists.AttackTypeList)
             {
-                temp.Resistences.Add(type, RandomInformation.RandomFloat());
+                temp.Resistences.Add(type, RandomInformation.Float());
             }
 
             switch (typeOfClass)

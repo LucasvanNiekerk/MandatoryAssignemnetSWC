@@ -23,19 +23,19 @@ namespace MiniFramework2d.WorldObjects
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.W:
-                    if (Position.Y-1 != -1) Position.Y -= 1;
+                    if (Position.Y - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y -= 1;
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.S:
-                    if (Position.Y+1 != currentMap.Height) Position.Y += 1;
+                    if (Position.Y+1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y += 1;
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.A:
-                    if (Position.X - 1 != -1) Position.X -= 1; 
+                    if (Position.X - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X -= 1; 
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.D:
-                    if (Position.X + 1 != currentMap.Height) Position.X += 1; 
+                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X += 1; 
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.Escape:
@@ -44,10 +44,6 @@ namespace MiniFramework2d.WorldObjects
                     else Movement(currentMap);
                     break;
             }
-            Console.WriteLine("x: " + Position.X + "y: " + Position.Y);
-            Debug.WriteLine("World Height and Width" + currentMap.Height + " " + currentMap.Width);
         }
-
-        
     }
 }

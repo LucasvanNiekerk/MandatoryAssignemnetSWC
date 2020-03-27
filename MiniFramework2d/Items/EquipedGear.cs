@@ -9,8 +9,8 @@ namespace MiniFramework2d.Items
 {
     public class EquipedGear
     {
-        public Dictionary<GearType, Gear> _equipment;
-        public Dictionary<WeaponType, Weapon> _weapons;
+        private Dictionary<GearType, Gear> _equipment;
+        private Dictionary<WeaponType, Weapon> _weapons;
 
         public EquipedGear()
         {
@@ -25,14 +25,23 @@ namespace MiniFramework2d.Items
             EnumLists.WeaponTypeList.ToList().ForEach(attack => _weapons.Add(attack, null));
         }
 
+        public (List<Gear>, List<Weapon>) DropItems()
+        {
+            List<Gear> gear = _equipment.Values.ToList();
+            List<Weapon> weapons = _weapons.Values.ToList();
+
+            return (gear, weapons);
+        }
+
         public (AttackType[], int[]) Damage() 
         {
             int[] damage = new int[2];
             AttackType[] attackType = new AttackType[2];
+
             for (int i = 0; i < 2; i++)
             {
-                damage[i] = _weapons.ToArray()[i].Value.Attack;
-                attackType[i] = _weapons.ToArray()[i].Value.Type;
+                damage[i] = _weapons.ToArray()[i].Value?.Attack ?? 0;
+                attackType[i] = _weapons.ToArray()[i].Value?.Type ?? AttackType.Blunt;
             }
 
             return (attackType, damage);
@@ -41,12 +50,15 @@ namespace MiniFramework2d.Items
 
         public int Defense
         {
-            get { return _equipment.Values.Sum(equipment => equipment.Defense); }
+            get
+            {
+                return _equipment.Values.Sum(equipment => equipment?.Defense ?? 0);
+            }
         }
 
         public float GetResistance(AttackType resistance)
         {
-            return (1f - _equipment.Values.Select(equipment => equipment.Resistences[resistance]).Sum());
+            return (1f - _equipment.Values.Select(equipment => equipment?.Resistences[resistance] ?? 0).Sum());
         }
 
         public void AddGear(Gear gear)

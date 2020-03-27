@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MiniFramework2d.Abstracts;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
 using MiniFramework2d.WorldObjects;
@@ -9,7 +10,7 @@ namespace MiniFramework2d
 {
     public class World
     {
-        public IWorldObject[,] Map { get; set; }
+        public IWorldObject[,] Map { get; }
 
         public int Height { get; }
         public int Width { get; }
@@ -44,9 +45,9 @@ namespace MiniFramework2d
             IWorldObject[,] result = new IWorldObject[height, width];
             Random random = new Random();
 
-            for (int i = 0; i < height; i++)
+            for (int i = 0; i < width; i++)
             {
-                for (int j = 0; j < width; j++)
+                for (int j = 0; j < height; j++)
                 {
                     switch (random.Next())
                     {
@@ -80,6 +81,44 @@ namespace MiniFramework2d
 
 
             return result;
+        }
+
+        public void PrintMap(List<Creature> actors)
+        {
+            Console.Clear();
+            IWorldObject[,] drawMap = (IWorldObject[,])Map.Clone();
+
+            actors.ForEach(actor => drawMap[actor.Position.Y, actor.Position.X] = actor);
+
+            for (int i = 0; i < Width; i++)
+            {
+                for (int j = 0; j < Height; j++)
+                {
+                    switch (drawMap[i,j])
+                    {
+                        case Dungeon dungeon:
+                            Console.Write('d');
+                            break;
+                        case EmptyTile emptyTile:
+                            Console.Write('e');
+                            break;
+                        case Town town:
+                            Console.Write('t');
+                            break;
+                        case Water water:
+                            Console.Write('w');
+                            break;
+                        case Enemy enemy:
+                            Console.Write('E');
+                            break;
+                        case Player player:
+                            Console.Write('P');
+                            break;
+                    }
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }

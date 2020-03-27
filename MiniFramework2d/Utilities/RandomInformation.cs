@@ -7,9 +7,10 @@ namespace MiniFramework2d.Utilities
 {
     public static class RandomInformation
     {
-        public static string RandomName(string type)
+        static Random rng = new Random();
+        public static string Name(string type)
         {
-            Random rng = new Random();
+            rng = new Random();
 
             List<string> words = new List<string>()
             {
@@ -23,9 +24,9 @@ namespace MiniFramework2d.Utilities
             return words[rng.Next(words.Count - 1)] + type;
 
         }
-        public static string RandomDescription(string type)
+        public static string Description(string type)
         {
-            Random rng = new Random();
+            rng = new Random();
 
             List<string> words = new List<string>()
             {
@@ -39,16 +40,16 @@ namespace MiniFramework2d.Utilities
             return words[rng.Next(words.Count - 1)] + type;
         }
 
-        public static int RandomInteger(int min, int max)
+        public static int Integer(int min, int max)
         {
-            Random rng = new Random();
+            rng = new Random();
 
             return rng.Next(min, max);
         }
 
-        public static float RandomFloat()
+        public static float Float()
         {
-            Random rng = new Random();
+            rng = new Random();
 
             return (float)rng.NextDouble();
         }

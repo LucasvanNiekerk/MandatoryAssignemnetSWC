@@ -27,5 +27,10 @@
         {
             return (X.GetHashCode() *3) + Y.GetHashCode();
         }
+
+        public override string ToString()
+        {
+            return $"X: {X} and Y: {Y}";
+        }
     }
 }
