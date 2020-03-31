@@ -18,8 +18,8 @@ namespace MiniFramework2d.Factories
         /// <returns></returns>
         public static Weapon GetWeapon(WeaponType type, AttackType attackType, int minDamage = -1, int maxDamge = -1)
         {
-            if (minDamage < 0) minDamage = RandomInformation.Integer(1, 100);
-            if (maxDamge < 0) maxDamge = RandomInformation.Integer(minDamage, 100);
+            if (minDamage <= 0) minDamage = RandomInformation.Integer(Configuration.WeaponFactoryMinDamage, Configuration.WeaponFactoryMaxDamage);
+            if (maxDamge <= 0) maxDamge = RandomInformation.Integer(minDamage, 100);
 
             //if (minDamage < 0 || maxDamge < 0) throw new ArgumentException($"Not valid damage for weapon. Min: {minDamage}, Max: {maxDamge}");
 

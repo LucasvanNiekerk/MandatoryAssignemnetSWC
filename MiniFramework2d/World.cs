@@ -43,35 +43,35 @@ namespace MiniFramework2d
             IWorldObject[,] result = new IWorldObject[height, width];
             Random random = new Random();
 
-            for (int i = 0; i < width; i++)
+            for (int x = 0; x < width; x++)
             {
-                for (int j = 0; j < height; j++)
+                for (int y = 0; y < height; y++)
                 {
-                    switch (random.Next())
+                    switch (random.Next(8))
                     {
                         case 0:
-                            result[i,j] = new EmptyTile("", "", new Point(i, j));
+                            result[x,y] = new EmptyTile("", "", new Point(x, y));
                             break;
                         case 1:
-                            result[i, j] = new EmptyTile("", "", new Point(i, j));
+                            result[x, y] = new EmptyTile("", "", new Point(x, y));
                             break;
                         case 2:
-                            result[i, j] = new EmptyTile("", "", new Point(i, j));
+                            result[x, y] = new EmptyTile("", "", new Point(x, y));
                             break;
                         case 3:
-                            result[i, j] = new EmptyTile("", "", new Point(i, j));
+                            result[x, y] = new EmptyTile("", "", new Point(x, y));
                             break;
                         case 4:
-                            result[i, j] = new Town("Town", "Big Town", new Point(i,j));
+                            result[x, y] = new Town("Town", "Big Town", new Point(x,y));
                             break;
                         case 5:
-                            result[i, j] = new Town("Town", "Big Town", new Point(i, j));
+                            result[x, y] = new Town("Town", "Big Town", new Point(x, y));
                             break;
                         case 6:
-                            result[i, j] = new Dungeon("Dungeon", "Scary Dungeon", new Point(i,j));
+                            result[x, y] = new Dungeon("Dungeon", "Scary Dungeon", new Point(x,y));
                             break;
                         case 7:
-                            result[i, j] = new Water("Water", "Deep scart Water", new Point(i,j));
+                            result[x, y] = new Water("Water", "Deep scart Water", new Point(x,y));
                             break;
                     }
                 }
@@ -86,13 +86,14 @@ namespace MiniFramework2d
             Console.Clear();
             IWorldObject[,] drawMap = (IWorldObject[,])Map.Clone();
 
-            actors.ForEach(actor => drawMap[actor.Position.Y, actor.Position.X] = actor);
+            actors.ForEach(actor => drawMap[actor.Position.X, actor.Position.Y] = actor);
 
-            for (int i = 0; i < Width; i++)
+            for (int x = 0; x < Width; x++)
             {
-                for (int j = 0; j < Height; j++)
+                for (int y = 0; y < Height; y++)
                 {
-                    switch (drawMap[i,j])
+                    //This is weird but it works
+                    switch (drawMap[y,x])
                     {
                         case Dungeon dungeon:
                             Console.Write('d');

@@ -8,7 +8,7 @@ namespace MiniFramework2d.Factories
 {
     public static class GearFactory // IFactory
     {
-        public static Gear GetGear(GearType typeOfClass, int minDefense = 1, int maxDefense = 10)
+        public static Gear GetGear(GearType typeOfClass, int minDefense = Configuration.GearFactoryMinDefense, int maxDefense = Configuration.GearFactoryMaxDefense)
         {
             Gear temp = new Gear(typeOfClass, 
                 RandomInformation.Description(GearType.Chest.ToString()), 

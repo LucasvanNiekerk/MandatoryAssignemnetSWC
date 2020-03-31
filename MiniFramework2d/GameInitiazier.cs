@@ -59,7 +59,7 @@ namespace MiniFramework2d
                 _world.PrintMap(_actors);
             }
 
-            Console.WriteLine($"The winner is {_actors[0].Name} congratiolations!");
+            Console.WriteLine($"The winner is {_actors[0]?.Name ?? "no one survived"} congratiolations!");
             Console.WriteLine();
         }
 

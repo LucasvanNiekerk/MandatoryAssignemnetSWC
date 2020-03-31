@@ -12,10 +12,12 @@ namespace Tester
     {
         public void Start()
         {
-            World world = GenerateWorld();
+            //World world = GenerateWorld();
+            World world = new World(15, 15);
             Player player = GeneratePlayer();
             List<Enemy> enemies = GenerateEnemies();
             GenerateWeaponsForEnemies(enemies);
+
 
             GameInitiazier game = new GameInitiazier(world, player, enemies);
 

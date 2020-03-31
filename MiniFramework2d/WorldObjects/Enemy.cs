@@ -36,7 +36,7 @@ namespace MiniFramework2d.WorldObjects
                     else Movement(currentMap);
                     break;
                 case 3:
-                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X - 1, Position.Y] is Water)) Position.X += 1;
+                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X + 1, Position.Y] is Water)) Position.X += 1;
                     else Movement(currentMap);
                     break;
             }
