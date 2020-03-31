@@ -63,12 +63,12 @@ namespace MiniFramework2d.Items
 
         public void AddGear(Gear gear)
         {
-            _equipment[gear.ItemSlot] = gear;
+            if(gear != null) _equipment[gear.ItemSlot] = gear;
         }
 
         public void AddWeapon(Weapon weapon)
         {
-            _weapons[weapon.ItemSlot] = weapon;
+            if(weapon != null) _weapons[weapon.ItemSlot] = weapon;
         }
 
         public void AddOnlyIfBetterGear(Gear newGear)

@@ -70,6 +70,10 @@ namespace Tester
                 }
             }
 
+            world.Map[3,3] = new Dungeon("Dungeon", "Dirty cave", new Point(3,3));
+            world.Map[4,4] = new Town("Small town", "A couple of houses in a forrest", new Point(4,4));
+            world.Map[0,0] = new Water("Water", "Water...", new Point(0, 0));
+
             return world;
         }
     }

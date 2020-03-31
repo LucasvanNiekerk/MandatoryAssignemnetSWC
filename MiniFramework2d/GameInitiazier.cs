@@ -54,7 +54,8 @@ namespace MiniFramework2d
                 {
                     if (currentActor.CheckCollision(otherActor))
                     {
-                        switch (otherActor as IWorldObject)
+                        Combat(currentActor, otherActor);
+                        /*switch (otherActor as IWorldObject)
                         {
                             case Dungeon dungeon:
                                 dungeon.Event(currentActor);
@@ -67,6 +68,26 @@ namespace MiniFramework2d
                                 break;
                             case Player player:
                                 Combat(currentActor, otherActor);
+                                break;
+                            case Town town:
+                                currentActor.HealToFullHealth();
+                                break;
+                            case Water water:
+                                Console.WriteLine("Howd you even get here!?");
+                                break;
+                        }
+                        */
+                    }
+
+                    if (currentActor.CheckCollision(_world.Map[currentActor.Position.X, currentActor.Position.Y]))
+                    {
+                        switch (_world.Map[currentActor.Position.X, currentActor.Position.Y])
+                        {
+                            case Dungeon dungeon:
+                                dungeon.Event(currentActor);
+                                break;
+                            case EmptyTile emptyTile:
+                                if (emptyTile.ContainsEvent) Console.WriteLine("EVENT WOHOO");
                                 break;
                             case Town town:
                                 currentActor.HealToFullHealth();

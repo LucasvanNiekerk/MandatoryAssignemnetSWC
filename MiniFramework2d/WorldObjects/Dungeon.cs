@@ -41,7 +41,7 @@ namespace MiniFramework2d.WorldObjects
 
         private void Combat(ref Creature dungeonCrawler, Creature enemy)
         {
-            while (!dungeonCrawler.Dead || !enemy.Dead)
+            while (!dungeonCrawler.Dead && !enemy.Dead)
             {
                 // Current actor attack the target found aka other actor.
                 enemy.RecieveDamage(enemy - dungeonCrawler);
