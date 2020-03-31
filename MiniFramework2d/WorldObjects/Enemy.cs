@@ -24,19 +24,19 @@ namespace MiniFramework2d.WorldObjects
             switch (rng)
             {
                 case 0:
-                    if (Position.Y - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y -= 1;
+                    if (Position.Y - 1 != -1 && !(currentMap.Map[Position.X, Position.Y - 1] is Water)) Position.Y -= 1;
                     else Movement(currentMap);
                     break;
                 case 1:
-                    if (Position.Y + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y += 1;
+                    if (Position.Y + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y + 1] is Water)) Position.Y += 1;
                     else Movement(currentMap);
                     break;
                 case 2:
-                    if (Position.X - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X -= 1;
+                    if (Position.X - 1 != -1 && !(currentMap.Map[Position.X - 1, Position.Y] is Water)) Position.X -= 1;
                     else Movement(currentMap);
                     break;
                 case 3:
-                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X += 1;
+                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X - 1, Position.Y] is Water)) Position.X += 1;
                     else Movement(currentMap);
                     break;
             }
