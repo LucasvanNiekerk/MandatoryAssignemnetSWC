@@ -6,9 +6,9 @@ using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.Factories
 {
-    public class GearFactory: IFactory
+    public static class GearFactory // IFactory
     {
-        public Gear GetGear(GearType typeOfClass, int minDefense = 1, int maxDefense = 10)
+        public static Gear GetGear(GearType typeOfClass, int minDefense = 1, int maxDefense = 10)
         {
             Gear temp = new Gear(typeOfClass, 
                 RandomInformation.Description(GearType.Chest.ToString()), 

@@ -21,11 +21,11 @@ namespace MiniFramework2d
         /// <param name="map"></param>
         /// <param name="height"></param>
         /// <param name="width"></param>
-        public World(IWorldObject[,] map, int height, int width)
+        public World(IWorldObject[,] map)
         {
             Map = map;
-            Height = height;
-            Width = width;
+            Height = map.GetLength(0);
+            Width = map.GetLength(1);
         }
 
         /// <summary>
@@ -52,16 +52,16 @@ namespace MiniFramework2d
                     switch (random.Next())
                     {
                         case 0:
-                            result[i,j] = new EmptyTile(new Point(i, j));
+                            result[i,j] = new EmptyTile("", "", new Point(i, j));
                             break;
                         case 1:
-                            result[i, j] = new EmptyTile(new Point(i, j));
+                            result[i, j] = new EmptyTile("", "", new Point(i, j));
                             break;
                         case 2:
-                            result[i, j] = new EmptyTile(new Point(i, j));
+                            result[i, j] = new EmptyTile("", "", new Point(i, j));
                             break;
                         case 3:
-                            result[i, j] = new EmptyTile(new Point(i, j));
+                            result[i, j] = new EmptyTile("", "", new Point(i, j));
                             break;
                         case 4:
                             result[i, j] = new Town("Town", "Big Town", new Point(i,j));

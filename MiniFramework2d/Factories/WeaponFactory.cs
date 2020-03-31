@@ -1,15 +1,32 @@
-﻿using MiniFramework2d.Enums;
+﻿using System;
+using MiniFramework2d.Enums;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Items;
 using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.Factories
 {
-    public class WeaponFactory: IFactory
+    public static class WeaponFactory // IFactory
     {
-        public Weapon GetWeapon(WeaponType type)
+        /// <summary>
+        /// Returns a new weapon with weapon and attack type given. If minDamage and maxDamage is left empty or is less than 0 the weapon will have random damage.
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="attackType"></param>
+        /// <param name="minDamage"></param>
+        /// <param name="maxDamge"></param>
+        /// <returns></returns>
+        public static Weapon GetWeapon(WeaponType type, AttackType attackType, int minDamage = -1, int maxDamge = -1)
         {
-            Weapon temp = new Weapon(type, RandomInformation.Description(type.ToString()), RandomInformation.Integer(5,12), AttackType.Slash);
+            if (minDamage < 0) minDamage = RandomInformation.Integer(1, 100);
+            if (maxDamge < 0) maxDamge = RandomInformation.Integer(minDamage, 100);
+
+            //if (minDamage < 0 || maxDamge < 0) throw new ArgumentException($"Not valid damage for weapon. Min: {minDamage}, Max: {maxDamge}");
+
+            Weapon temp = new Weapon(type, 
+                RandomInformation.Description(type.ToString()), 
+                RandomInformation.Integer(minDamage, maxDamge), 
+                attackType);
 
             return temp;
         }

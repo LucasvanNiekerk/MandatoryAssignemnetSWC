@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Items;
@@ -8,9 +7,9 @@ using MiniFramework2d.Utilities;
 namespace MiniFramework2d.Abstracts
 {
     //Template class?
-    public abstract class Creature: IWorldObject, IAct
+    public abstract class Creature: WorldObjectBase, IAct
     {
-        protected Creature(string name, string description, Point position, int healthMax, int attack)
+        protected Creature(string name, string description, Point position, int healthMax, int attack) : base(name, description, position)
         {
             Name = name;
             Description = description;
@@ -40,7 +39,7 @@ namespace MiniFramework2d.Abstracts
         }
 
         
-        public bool Dead { get; set; }
+        public bool Dead { get; protected set; }
 
         //Technically decorator?
         public (AttackType[], int[]) Damage()
@@ -113,9 +112,5 @@ namespace MiniFramework2d.Abstracts
         {
             return _equipment.DropItems();
         }
-
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public Point Position { get; set; }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using MiniFramework2d;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
@@ -26,21 +24,18 @@ namespace Tester
 
         private void GenerateWeaponsForEnemies(List<Enemy> enemies)
         {
-            WeaponFactory wf = new WeaponFactory();
-            GearFactory gf = new GearFactory();
-
             foreach (var enemy in enemies)
             {
                 //All enemies start fully geared
                 foreach (var gearType in EnumLists.GearTypeList)
                 {
-                    enemy.EquipNewGear(gf.GetGear(gearType));
+                    enemy.EquipNewGear(GearFactory.GetGear(gearType));
                 }
 
                 //All enemies have a main and offhand weapon.
                 foreach (var weaponType in EnumLists.WeaponTypeList)
                 {
-                    enemy.EquipNewWeapon(wf.GetWeapon(weaponType));
+                    enemy.EquipNewWeapon(WeaponFactory.GetWeapon(weaponType, AttackType.Slash));
                 }
 
             }
@@ -61,12 +56,12 @@ namespace Tester
 
         private World GenerateWorld()
         {
-            World world = new World(new IWorldObject[5, 5], 5, 5);
+            World world = new World(new IWorldObject[5, 5]);
             for (int i = 0; i < world.Width; i++)
             {
                 for (int j = 0; j < world.Height; j++)
                 {
-                    world.Map[i, j] = new EmptyTile(new Point(i, j));
+                    world.Map[i, j] = new EmptyTile("", "", new Point(i, j));
                 }
             }
 

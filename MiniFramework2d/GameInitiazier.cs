@@ -1,23 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Dynamic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using MiniFramework2d.Abstracts;
-using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
 using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d
 {
+    /// <summary>
+    /// Main Component
+    /// </summary>
     public class GameInitiazier
     {
         private World _world;
         private List<Creature> _actors;
+
         /// <summary>
-        /// You can import your own world or you can generate a random world. By either give your own map[] or simply state how big it should be (mind you it is extreamly random at the moment).
+        /// You can import your own world or you can generate a random world. By either give your own map[] or simply state how big it should be (mind you it is extremely random at the moment).
+        /// The player is the user, he can move and you can give him start attack and defense, the player will start at map height/2 and width/2.
+        /// A list of enemies to be on the board, their position should be less than map height and bound. As default they will move a random direction each turn.
         /// </summary>
         /// <param name="world"></param>
         /// <param name="player"></param>
@@ -25,11 +27,17 @@ namespace MiniFramework2d
         public GameInitiazier(World world, Player player, List<Enemy> enemies)
         {
             _world = world;
-
             _actors = new List<Creature>();
 
             //To prevent the player from spawning outside the world...
             player.Position = new Point(world.Height/2, world.Width/2);
+            foreach (var enemy in enemies)
+            {
+                if (enemy.Position.X < 0 || enemy.Position.X > world.Width)
+                {
+                    
+                }
+            }
 
             _actors.Add(player);
             _actors.AddRange(enemies);
@@ -55,28 +63,6 @@ namespace MiniFramework2d
                     if (currentActor.CheckCollision(otherActor))
                     {
                         Combat(currentActor, otherActor);
-                        /*switch (otherActor as IWorldObject)
-                        {
-                            case Dungeon dungeon:
-                                dungeon.Event(currentActor);
-                                break;
-                            case EmptyTile emptyTile:
-                                if(emptyTile.ContainsEvent) Console.WriteLine("EVENT WOHOO");
-                                break;
-                            case Enemy enemy:
-                                Combat(currentActor, otherActor);
-                                break;
-                            case Player player:
-                                Combat(currentActor, otherActor);
-                                break;
-                            case Town town:
-                                currentActor.HealToFullHealth();
-                                break;
-                            case Water water:
-                                Console.WriteLine("Howd you even get here!?");
-                                break;
-                        }
-                        */
                     }
 
                     if (currentActor.CheckCollision(_world.Map[currentActor.Position.X, currentActor.Position.Y]))
@@ -98,7 +84,7 @@ namespace MiniFramework2d
                         }
                     }
                 });
-                Thread.Sleep(500);
+                Thread.Sleep(100);
             }
 
             List<Creature> deadCreatures = new List<Creature>();
@@ -107,7 +93,6 @@ namespace MiniFramework2d
                 if (_actors[i].Dead)
                 {
                     deadCreatures.Add(_actors[i]);
-                    
                 }
             }
 

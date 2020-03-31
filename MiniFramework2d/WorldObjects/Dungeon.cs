@@ -32,22 +32,22 @@ namespace MiniFramework2d.WorldObjects
 
         private List<Enemy> enemies;
 
-        public void Event(Creature dungeonCrawler)
+        public virtual void Event(Creature dungeonCrawler)
         {
             foreach (var enemy in enemies)
             {
                 //Fight
-                Combat(ref dungeonCrawler, enemy);
+                Combat(dungeonCrawler, enemy);
                 //If dead exit dungeon and continue
                 if (dungeonCrawler.Dead) break;
                 //Loot dead enemy
-                Loot(ref dungeonCrawler, enemy);
+                Loot(dungeonCrawler, enemy);
                 //Rest to full health (perhaps it should be random if you heal or not)
-                Rest(ref dungeonCrawler);
+                Rest(dungeonCrawler);
             }
         }
 
-        private void Combat(ref Creature dungeonCrawler, Creature enemy)
+        private void Combat(Creature dungeonCrawler, Creature enemy)
         {
             while (!dungeonCrawler.Dead && !enemy.Dead)
             {
@@ -62,7 +62,7 @@ namespace MiniFramework2d.WorldObjects
             }
         }
 
-        private void Loot(ref Creature dungeonCrawler, Creature enemy)
+        private void Loot(Creature dungeonCrawler, Creature enemy)
         {
             //Currently forces user to equip all new gear and weapons
             enemy.DropItems().gear?.ForEach(dungeonCrawler.EquipNewGear);
@@ -70,7 +70,7 @@ namespace MiniFramework2d.WorldObjects
         }
         
         
-        private void Rest(ref Creature dungeonCrawler)
+        private void Rest(Creature dungeonCrawler)
         {
             dungeonCrawler.HealToFullHealth();
         }
