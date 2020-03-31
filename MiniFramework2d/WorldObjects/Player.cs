@@ -28,7 +28,7 @@ namespace MiniFramework2d.WorldObjects
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.S:
-                    if (Position.Y+1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y + 1] is IBlockMovement)) Position.Y += 1;
+                    if (Position.Y + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y + 1] is IBlockMovement)) Position.Y += 1;
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.A:

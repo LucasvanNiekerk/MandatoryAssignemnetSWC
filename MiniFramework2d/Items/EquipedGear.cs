@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using MiniFramework2d.Enums;
-using MiniFramework2d.Interfaces;
 
 namespace MiniFramework2d.Items
 {
@@ -13,6 +10,11 @@ namespace MiniFramework2d.Items
         private Dictionary<WeaponType, Weapon> _weapons;
 
         public EquipedGear()
+        {
+            Initialize();
+        }
+
+        private void Initialize()
         {
             _equipment = new Dictionary<GearType, Gear>();
             _weapons = new Dictionary<WeaponType, Weapon>();
@@ -33,7 +35,7 @@ namespace MiniFramework2d.Items
             return (gear, weapons);
         }
 
-        public (AttackType[], int[]) Damage() 
+        public (AttackType[], int[]) Damage()
         {
             int[] damage = new int[2];
             AttackType[] attackType = new AttackType[2];
@@ -45,7 +47,6 @@ namespace MiniFramework2d.Items
             }
 
             return (attackType, damage);
-            //_weapons.Values.ToList().Sum(newWeapon => newWeapon.Attack);
         }
 
         public int Defense
@@ -61,29 +62,35 @@ namespace MiniFramework2d.Items
             return (1f - _equipment.Values.Select(equipment => equipment?.Resistences[resistance] ?? 0).Sum());
         }
 
-        public void AddGear(Gear gear)
+        public void EquipGear(Gear gear)
         {
-            if(gear != null) _equipment[gear.ItemSlot] = gear;
+            if (gear != null) _equipment[gear.ItemSlot] = gear;
         }
 
-        public void AddWeapon(Weapon weapon)
+        public void EquipWeapon(Weapon weapon)
         {
-            if(weapon != null) _weapons[weapon.ItemSlot] = weapon;
+            if (weapon != null) _weapons[weapon.ItemSlot] = weapon;
         }
 
         public void AddOnlyIfBetterGear(Gear newGear)
         {
-            if (_equipment[newGear.ItemSlot].CompareTo(newGear) < 0)
+            if (newGear != null)
             {
-                AddGear(newGear);
+                if (_equipment[newGear.ItemSlot].CompareTo(newGear) < 0)
+                {
+                    EquipGear(newGear);
+                }
             }
         }
 
         public void AddOnlyIfBetterWeapon(Weapon newWeapon)
         {
-            if (_weapons[newWeapon.ItemSlot].CompareTo(newWeapon) < 0)
+            if (newWeapon != null)
             {
-                AddWeapon(newWeapon);
+                if (_weapons[newWeapon.ItemSlot].CompareTo(newWeapon) < 0)
+                {
+                    EquipWeapon(newWeapon);
+                }
             }
         }
     }

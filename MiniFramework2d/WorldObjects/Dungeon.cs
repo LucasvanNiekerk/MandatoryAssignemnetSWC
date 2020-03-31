@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using MiniFramework2d.Abstracts;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
@@ -17,17 +15,6 @@ namespace MiniFramework2d.WorldObjects
             Name = name;
             Description = description;
             Position = position;
-
-            enemies = new List<Enemy>();
-
-            EnemyFactory ef = new EnemyFactory();
-
-            for (int i = 0; i < RandomInformation.Integer(1, EnumLists.GearTypeList.Count() - 1); i++)
-            {
-                enemies.Add(ef.GetEnemyWithGear(new Point(0,0), RandomInformation.Integer(1,10), RandomInformation.Integer(1, 10)));
-            }
-
-
         }
 
         public string Name { get; set; }
@@ -38,16 +25,29 @@ namespace MiniFramework2d.WorldObjects
 
         public virtual void Event(Creature dungeonCrawler)
         {
+            EnterDungeon();
             foreach (var enemy in enemies)
             {
                 //Fight
                 Combat(dungeonCrawler, enemy);
                 //If dead exit dungeon and continue
                 if (dungeonCrawler.Dead) break;
-                //Loot dead enemy
-                Loot(dungeonCrawler, enemy);
+                //Loot dead enemy otherwise rest and fight next
+                if(enemy.Dead) Loot(dungeonCrawler, enemy);
                 //Rest to full health (perhaps it should be random if you heal or not)
                 Rest(dungeonCrawler);
+            }
+        }
+
+        private void EnterDungeon()
+        {
+            enemies = new List<Enemy>();
+
+            EnemyFactory ef = new EnemyFactory();
+
+            for (int i = 0; i < RandomInformation.Integer(1, EnumLists.GearTypeList.Count() - 1); i++)
+            {
+                enemies.Add(ef.GetEnemyWithGear(new Point(0, 0), RandomInformation.Integer(1, 10), RandomInformation.Integer(1, 10)));
             }
         }
 
@@ -55,6 +55,8 @@ namespace MiniFramework2d.WorldObjects
         {
             while (!dungeonCrawler.Dead && !enemy.Dead)
             {
+                //If stalemate breakout
+                if (enemy - dungeonCrawler <= 0 && dungeonCrawler - enemy <= 0) break;
                 // Current actor attack the target found aka other actor.
                 enemy.RecieveDamage(enemy - dungeonCrawler);
 

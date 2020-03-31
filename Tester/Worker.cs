@@ -51,7 +51,10 @@ namespace Tester
 
         private Player GeneratePlayer()
         {
-            return new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 10, 200);
+            Player p = new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 10, 10);
+            p.EquipNewGear(GearFactory.GetGear(GearType.Chest));
+            p.EquipNewWeapon(WeaponFactory.GetWeapon(WeaponType.MainHand, AttackType.Blunt));
+            return p;
         }
 
         private World GenerateWorld()

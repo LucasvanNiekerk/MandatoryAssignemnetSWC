@@ -52,9 +52,9 @@ namespace MiniFramework2d
 
         public void Start()
         {
+            _world.PrintMap(_actors);
             while (_actors.Count > 1)
             {
-                _world.PrintMap(_actors);
                 Update();
                 _world.PrintMap(_actors);
             }

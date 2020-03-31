@@ -41,7 +41,7 @@ namespace MiniFramework2d.Abstracts
         
         public bool Dead { get; protected set; }
 
-        //Technically decorator?
+        //Decorator??
         public (AttackType[], int[]) Damage()
         {
             var output = _equipment.Damage();
@@ -58,7 +58,7 @@ namespace MiniFramework2d.Abstracts
             return _equipment.Defense;
         }
 
-        //Adaptor??
+        
         private float Resistance(AttackType type)
         {
             return _equipment.GetResistance(type);
@@ -67,7 +67,7 @@ namespace MiniFramework2d.Abstracts
         //Minusing two creatures will return damage dealt to left creature.
         public static int operator -(Creature defendingCreature, Creature attackingCreature)
         {
-            int damageDealt = attackingCreature._attack;
+            int damageDealt = 0;
 
             //Array of attacking Creatures equipped weapons containing their damage and attackType.
             var creature1Weapons = attackingCreature.Damage();
@@ -85,7 +85,10 @@ namespace MiniFramework2d.Abstracts
 
         public void RecieveDamage(int amount)
         {
-            HealthCurrent -= amount;
+            if (amount > 0)
+            {
+                HealthCurrent -= amount;
+            }
         }
 
         public void HealToFullHealth()
@@ -100,12 +103,18 @@ namespace MiniFramework2d.Abstracts
 
         public void EquipNewGear(Gear gear)
         {
-            _equipment.AddGear(gear);
+            if (gear != null)
+            {
+                _equipment.EquipGear(gear);
+            }
         }
 
         public void EquipNewWeapon(Weapon weapon)
         {
-            _equipment.AddWeapon(weapon);
+            if (weapon != null)
+            {
+                _equipment.EquipWeapon(weapon);
+            }
         }
 
         public (List<Gear> gear, List<Weapon> weapons) DropItems()
