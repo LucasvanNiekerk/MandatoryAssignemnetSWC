@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using MiniFramework2d.Abstracts;
+using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
@@ -20,10 +22,12 @@ namespace MiniFramework2d.WorldObjects
 
             EnemyFactory ef = new EnemyFactory();
 
-            for (int i = 0; i < RandomInformation.Integer(1, 5); i++)
+            for (int i = 0; i < RandomInformation.Integer(1, EnumLists.GearTypeList.Count() - 1); i++)
             {
                 enemies.Add(ef.GetEnemyWithGear(new Point(0,0), RandomInformation.Integer(1,10), RandomInformation.Integer(1, 10)));
             }
+
+
         }
 
         public string Name { get; set; }

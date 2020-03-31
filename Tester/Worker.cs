@@ -51,7 +51,7 @@ namespace Tester
 
         private Player GeneratePlayer()
         {
-            return new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 10, 2);
+            return new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 10, 200);
         }
 
         private World GenerateWorld()

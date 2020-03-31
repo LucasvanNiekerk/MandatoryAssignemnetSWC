@@ -28,12 +28,12 @@ namespace MiniFramework2d.Factories
                 health, 
                 attack);
 
-            for (int i = 0; i < RandomInformation.Integer(0, EnumLists.GearTypeList.Count() -1); i++)
+            for (int i = 0; i < RandomInformation.Integer(0, EnumLists.GearTypeList.Count()); i++)
             {
                 result.EquipNewGear(GearFactory.GetGear(EnumLists.GearTypeList.ToList()[i]));
             }
 
-            for (int i = 0; i < RandomInformation.Integer(0, EnumLists.WeaponTypeList.Count() - 1); i++)
+            for (int i = 0; i < RandomInformation.Integer(0, EnumLists.WeaponTypeList.Count()); i++)
             {
                 result.EquipNewWeapon(WeaponFactory.GetWeapon(EnumLists.WeaponTypeList.ToList()[i], AttackType.Slash));
             }

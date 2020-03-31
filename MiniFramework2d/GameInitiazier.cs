@@ -13,9 +13,6 @@ namespace MiniFramework2d
     /// </summary>
     public class GameInitiazier
     {
-        private World _world;
-        private List<Creature> _actors;
-
         /// <summary>
         /// You can import your own world or you can generate a random world. By either give your own map[] or simply state how big it should be (mind you it is extremely random at the moment).
         /// The player is the user, he can move and you can give him start attack and defense, the player will start at map height/2 and width/2.
@@ -31,26 +28,39 @@ namespace MiniFramework2d
 
             //To prevent the player from spawning outside the world...
             player.Position = new Point(world.Height/2, world.Width/2);
+
+            //To prevent enemies from spawning outside the world...
             foreach (var enemy in enemies)
             {
                 if (enemy.Position.X < 0 || enemy.Position.X > world.Width)
                 {
-                    
+                    enemy.Position.X = RandomInformation.Integer(0, world.Width);
+                }
+                if (enemy.Position.Y < 0 || enemy.Position.Y > world.Height)
+                {
+                    enemy.Position.Y = RandomInformation.Integer(0, world.Height);
                 }
             }
 
             _actors.Add(player);
             _actors.AddRange(enemies);
         }
+
+        private World _world;
+        private List<Creature> _actors;
+
+
         public void Start()
         {
-            bool running = true;
-
-            while (running)
+            while (_actors.Count > 1)
             {
                 _world.PrintMap(_actors);
                 Update();
+                _world.PrintMap(_actors);
             }
+
+            Console.WriteLine($"The winner is {_actors[0].Name} congratiolations!");
+            Console.WriteLine();
         }
 
         private void Update()

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using MiniFramework2d.Abstracts;
+using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.WorldObjects
@@ -23,19 +24,19 @@ namespace MiniFramework2d.WorldObjects
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.W:
-                    if (Position.Y - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y -= 1;
+                    if (Position.Y - 1 != -1 && !(currentMap.Map[Position.X, Position.Y - 1] is IBlockMovement)) Position.Y -= 1;
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.S:
-                    if (Position.Y+1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.Y += 1;
+                    if (Position.Y+1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y + 1] is IBlockMovement)) Position.Y += 1;
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.A:
-                    if (Position.X - 1 != -1 && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X -= 1; 
+                    if (Position.X - 1 != -1 && !(currentMap.Map[Position.X - 1, Position.Y] is IBlockMovement)) Position.X -= 1; 
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.D:
-                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X, Position.Y] is Water)) Position.X += 1; 
+                    if (Position.X + 1 != currentMap.Height && !(currentMap.Map[Position.X + 1, Position.Y] is IBlockMovement)) Position.X += 1; 
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.Escape:

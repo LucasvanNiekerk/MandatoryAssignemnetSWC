@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using MiniFramework2d.Abstracts;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
@@ -10,17 +9,10 @@ namespace MiniFramework2d
 {
     public class World
     {
-        public IWorldObject[,] Map { get; }
-
-        public int Height { get; }
-        public int Width { get; }
-
         /// <summary>
         /// For predefined worlds
         /// </summary>
         /// <param name="map"></param>
-        /// <param name="height"></param>
-        /// <param name="width"></param>
         public World(IWorldObject[,] map)
         {
             Map = map;
@@ -39,6 +31,12 @@ namespace MiniFramework2d
             Height = height;
             Width = width;
         }
+
+        public IWorldObject[,] Map { get; }
+
+        public int Height { get; }
+        public int Width { get; }
+        
 
         private IWorldObject[,] GenerateRandomMap(int height, int width)
         {

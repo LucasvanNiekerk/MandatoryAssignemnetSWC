@@ -67,7 +67,7 @@ namespace MiniFramework2d.Abstracts
         //Minusing two creatures will return damage dealt to left creature.
         public static int operator -(Creature defendingCreature, Creature attackingCreature)
         {
-            int damageDealt = 0;
+            int damageDealt = attackingCreature._attack;
 
             //Array of attacking Creatures equipped weapons containing their damage and attackType.
             var creature1Weapons = attackingCreature.Damage();
