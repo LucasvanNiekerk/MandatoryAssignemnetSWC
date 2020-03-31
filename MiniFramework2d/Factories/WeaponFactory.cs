@@ -11,21 +11,6 @@ namespace MiniFramework2d.Factories
         {
             Weapon temp = new Weapon(type, RandomInformation.Description(type.ToString()), RandomInformation.Integer(5,12), AttackType.Slash);
 
-            int rng = RandomInformation.Integer(1, 2);
-            if (rng == 1) temp.Type = AttackType.Blunt;
-            else if (rng == 2) temp.Type = AttackType.Stab;
-
-            switch (type)
-            {
-                case WeaponType.MainHand:
-                    temp.ItemSlot = WeaponType.MainHand;
-                    break;
-                case WeaponType.OffHand:
-                    temp.ItemSlot = WeaponType.OffHand;
-                    break;
-
-            }
-
             return temp;
         }
 

@@ -8,7 +8,7 @@ namespace MiniFramework2d.Utilities
     public static class RandomInformation
     {
         static Random rng = new Random();
-        public static string Name(string type)
+        public static string Name()
         {
             rng = new Random();
 
@@ -21,7 +21,7 @@ namespace MiniFramework2d.Utilities
                 "Light"
             };
 
-            return words[rng.Next(words.Count - 1)] + type;
+            return words[rng.Next(words.Count - 1)];
 
         }
         public static string Description(string type)

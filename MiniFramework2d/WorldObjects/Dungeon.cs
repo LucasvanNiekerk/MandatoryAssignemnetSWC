@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using MiniFramework2d.Abstracts;
+using MiniFramework2d.Factories;
 using MiniFramework2d.Interfaces;
 using MiniFramework2d.Utilities;
 
@@ -14,8 +15,15 @@ namespace MiniFramework2d.WorldObjects
             Name = name;
             Description = description;
             Position = position;
-            //Should either be randomized or predefined
-            enemies = new List<Enemy> {new Enemy("Goblin", "Small", new Point(0, 0), 2, 2)};
+
+            enemies = new List<Enemy>();
+
+            EnemyFactory ef = new EnemyFactory();
+
+            for (int i = 0; i < RandomInformation.Integer(1, 5); i++)
+            {
+                enemies.Add(ef.GetEnemyWithGear(new Point(0,0), RandomInformation.Integer(1,10), RandomInformation.Integer(1, 10)));
+            }
         }
 
         public string Name { get; set; }
@@ -57,8 +65,8 @@ namespace MiniFramework2d.WorldObjects
         private void Loot(ref Creature dungeonCrawler, Creature enemy)
         {
             //Currently forces user to equip all new gear and weapons
-            enemy.DropItems().gear.ForEach(dungeonCrawler.EquipNewGear);
-            enemy.DropItems().weapons.ForEach(dungeonCrawler.EquipNewWeapon);
+            enemy.DropItems().gear?.ForEach(dungeonCrawler.EquipNewGear);
+            enemy.DropItems().weapons?.ForEach(dungeonCrawler.EquipNewWeapon);
         }
         
         
