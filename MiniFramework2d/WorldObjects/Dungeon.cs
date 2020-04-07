@@ -87,13 +87,17 @@ namespace MiniFramework2d.WorldObjects
 
         private void Loot(Creature dungeonCrawler, Creature enemy)
         {
-            //Currently forces user to equip all new gear and weapons
+            // for logging
+            bool anyGear = false;
+            bool anyWeapons = false;
+
             enemy.DropItems().gear?.ForEach(gear =>
             {
                 if (gear != null)
                 {
                     dungeonCrawler.EquipNewGear(gear);
-                    
+
+                    anyGear = true;
                     Logger.Log($"{dungeonCrawler.Name} found and equipped {gear}!");
                 }
             });
@@ -102,10 +106,15 @@ namespace MiniFramework2d.WorldObjects
                 if (weapon != null)
                 {
                     dungeonCrawler.EquipNewWeapon(weapon);
+
+                    anyWeapons = true;
                     Logger.Log($"{dungeonCrawler.Name} found and equipped {weapon}!");
                 }
             });
-            if(enemy.DropItems().gear.Any() && enemy.DropItems().weapons.Any()) Logger.Log($"{dungeonCrawler.Name} could not find any gear or weapons on {enemy.Name}");
+
+            if (!anyGear && !anyWeapons) Logger.Log($"{dungeonCrawler.Name} could not find any gear or weapons on {enemy.Name}");
+            else if(!anyGear) Logger.Log($"{dungeonCrawler.Name} could not find any gear on {enemy.Name}");
+            else if(!anyWeapons) Logger.Log($"{dungeonCrawler.Name} could not find any weapons on {enemy.Name}");
         }
         
         

@@ -9,6 +9,8 @@ namespace MiniFramework2d.Utilities
         public const string LogPath = "../../../logs/";
         public static readonly string LogFileName = DateTime.Now.ToFileTimeUtc().ToString();
 
+        public const int TurnDelay = 500;
+
         public const int WeaponFactoryMinDamage = 1;
         public const int WeaponFactoryMaxDamage = 15;
 

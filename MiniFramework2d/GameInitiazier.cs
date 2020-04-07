@@ -58,8 +58,8 @@ namespace MiniFramework2d
             while (_actors.Count > 1)
             {
                 Update();
-                _world.PrintMap(_actors);
             }
+            _world.PrintMap(_actors);
 
             Logger.Log($"The game is over...\nThe winner is {_actors[0]?.Name ?? "no one survived"} congratiolations!");
 
@@ -76,6 +76,7 @@ namespace MiniFramework2d
                 {
                     Logger.Log($"{currentActor}");
                     currentActor.Act(_world);
+                    _world.PrintMap(_actors);
                     Logger.Log($"{currentActor.Name} moved to {currentActor.Position}");
 
                     //We then check if any of the the current actor has collided with any of the other actors
@@ -107,7 +108,7 @@ namespace MiniFramework2d
                                 emptyTile.Event(currentActor);
                                 break;
                             case Town town:
-                                currentActor.HealToFullHealth();
+                                town.Event(currentActor);
                                 Logger.Log($"{currentActor.Name} entered a town and healed up. {currentActor.Name} is at full health {currentActor.HealthCurrent}.");
                                 break;
                             case Water water:
@@ -116,8 +117,8 @@ namespace MiniFramework2d
                                 break;
                         }
                     }
-                    Thread.Sleep(100);
-                    Logger.Log("\n");
+                    Thread.Sleep(Configuration.TurnDelay);
+                    Logger.Log($"End of {currentActor.Name}'s turn \n");
                 }
             });
             

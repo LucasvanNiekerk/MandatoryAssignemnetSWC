@@ -99,6 +99,7 @@ namespace MiniFramework2d
                             Console.Write('d');
                             break;
                         case EmptyTile emptyTile:
+                            
                             Console.Write('e');
                             break;
                         case Town town:
@@ -108,10 +109,14 @@ namespace MiniFramework2d
                             Console.Write('w');
                             break;
                         case Enemy enemy:
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.Write('E');
+                            Console.ResetColor();
                             break;
                         case Player player:
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.Write('P');
+                            Console.ResetColor();
                             break;
                     }
                 }
