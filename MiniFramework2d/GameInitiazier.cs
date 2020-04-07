@@ -167,13 +167,13 @@ namespace MiniFramework2d
 
                 // Current actor attack the target found aka other actor.
                 otherActor.RecieveDamage(otherActor - currentActor);
-                Logger.Log($"{currentActor.Name} attacked {otherActor.Name} for {otherActor - currentActor} damage. \n{(otherActor.Dead ? otherActor.Name + " died!" : " is at " + otherActor.HealthCurrent + "health.")}");
+                Logger.Log($"{currentActor.Name} attacked {otherActor.Name} for {otherActor - currentActor} damage. \n{(otherActor.Dead ? otherActor.Name + " died!" : otherActor.Name + " is at " + otherActor.HealthCurrent + "health.")}");
 
                 // If the other actor survived he retaliates.
                 if (!otherActor.Dead)
                 {
                     currentActor.RecieveDamage(currentActor - otherActor);
-                    Logger.Log($"{otherActor.Name} attacked {currentActor.Name} for {currentActor - otherActor} damage. \n{(currentActor.Dead ? currentActor.Name + " died!" : " is at " + currentActor.HealthCurrent + "health.")}");
+                    Logger.Log($"{otherActor.Name} attacked {currentActor.Name} for {currentActor - otherActor} damage. \n{(currentActor.Dead ? currentActor.Name + " died!" : currentActor.Name + " is at " + currentActor.HealthCurrent + "health.")}");
                 }
             }
         }
