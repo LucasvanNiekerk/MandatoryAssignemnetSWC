@@ -105,7 +105,8 @@ namespace MiniFramework2d.Abstracts
         {
             if (gear != null)
             {
-                _equipment.EquipGear(gear);
+                //_equipment.EquipGear(gear);
+                _equipment.EquipOnlyIfBetterGear(gear);
             }
         }
 
@@ -113,7 +114,8 @@ namespace MiniFramework2d.Abstracts
         {
             if (weapon != null)
             {
-                _equipment.EquipWeapon(weapon);
+                //_equipment.EquipWeapon(weapon);
+                _equipment.EquipOnlyIfBetterWeapon(weapon);
             }
         }
 

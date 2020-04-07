@@ -4,6 +4,7 @@ using MiniFramework2d;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
 using MiniFramework2d.Interfaces;
+using MiniFramework2d.Items;
 using MiniFramework2d.Utilities;
 using MiniFramework2d.WorldObjects;
 
@@ -13,6 +14,25 @@ namespace Tester
     {
         public void Start()
         {
+            Enemy test = new Enemy("", "", new Point(0,0), 1, 1 );
+
+            var testgear = new Dictionary<AttackType, float>
+            {
+                [AttackType.Blunt] = 1f,
+                [AttackType.Slash] = 1f,
+                [AttackType.Stab] = 1f
+            };
+
+            test.EquipNewGear(new Gear(GearType.Chest, "Stronger", 500, testgear));
+
+            var testgear2 = new Dictionary<AttackType, float>
+            {
+                [AttackType.Blunt] = 0.5f,
+                [AttackType.Slash] = 0.5f,
+                [AttackType.Stab] = 0.5f
+            };
+            test.EquipNewGear(new Gear(GearType.Chest, "Weaker", 0, testgear2));
+
             //World world = GenerateWorld();
             World world = new World(10, 10);
             Player player = GeneratePlayer();

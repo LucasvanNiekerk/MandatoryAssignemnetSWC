@@ -93,6 +93,7 @@ namespace MiniFramework2d.WorldObjects
                 if (gear != null)
                 {
                     dungeonCrawler.EquipNewGear(gear);
+                    
                     Logger.Log($"{dungeonCrawler.Name} found and equipped {gear}!");
                 }
             });

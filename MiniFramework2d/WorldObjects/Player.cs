@@ -40,8 +40,12 @@ namespace MiniFramework2d.WorldObjects
                     else Movement(currentMap);
                     break;
                 case ConsoleKey.Escape:
-                    Debug.WriteLine("Are you sure you want to exit?");
-                    if (Console.ReadKey().Key == ConsoleKey.Escape) Environment.Exit(1);
+                    Console.WriteLine("Are you sure you want to exit?");
+                    if (Console.ReadKey().Key == ConsoleKey.Escape)
+                    {
+                        Logger.Log("Player exited the game...");
+                        Environment.Exit(1);
+                    }
                     else Movement(currentMap);
                     break;
             }

@@ -72,22 +72,30 @@ namespace MiniFramework2d.Items
             if (weapon != null) _weapons[weapon.ItemSlot] = weapon;
         }
 
-        public void AddOnlyIfBetterGear(Gear newGear)
+        public void EquipOnlyIfBetterGear(Gear newGear)
         {
             if (newGear != null)
             {
-                if (_equipment[newGear.ItemSlot].CompareTo(newGear) < 0)
+                if (_equipment[newGear.ItemSlot] == null)
+                {
+                    EquipGear(newGear);
+                }
+                if (_equipment[newGear.ItemSlot].CompareTo(newGear) > 0)
                 {
                     EquipGear(newGear);
                 }
             }
         }
 
-        public void AddOnlyIfBetterWeapon(Weapon newWeapon)
+        public void EquipOnlyIfBetterWeapon(Weapon newWeapon)
         {
             if (newWeapon != null)
             {
-                if (_weapons[newWeapon.ItemSlot].CompareTo(newWeapon) < 0)
+                if (_weapons[newWeapon.ItemSlot] == null)
+                {
+                    EquipWeapon(newWeapon);
+                }
+                else if (_weapons[newWeapon.ItemSlot].CompareTo(newWeapon) < 0)
                 {
                     EquipWeapon(newWeapon);
                 }
