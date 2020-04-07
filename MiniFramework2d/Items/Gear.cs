@@ -27,5 +27,10 @@ namespace MiniFramework2d.Items
             //Returns the average damage reduction of all attack types with a 1000 hp as base
             return (int)(Resistences.Sum(r => (1000 - Defense) / r.Value) / 3f) - (int)(other.Resistences.Sum(r => (1000 - Defense) / r.Value) / 3f);
         }
+
+        public override string ToString()
+        {
+            return $"{ItemSlot} {Defense}";
+        }
     }
 }

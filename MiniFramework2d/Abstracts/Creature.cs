@@ -121,5 +121,10 @@ namespace MiniFramework2d.Abstracts
         {
             return _equipment.DropItems();
         }
+
+        public override string ToString()
+        {
+            return $"{Name} is at {Position}.";
+        }
     }
 }

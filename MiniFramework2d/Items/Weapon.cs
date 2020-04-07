@@ -27,5 +27,10 @@ namespace MiniFramework2d.Items
         {
             return Attack - other.Attack;
         }
+
+        public override string ToString()
+        {
+            return $"{ItemSlot} {Attack} {Type}";
+        }
     }
 }

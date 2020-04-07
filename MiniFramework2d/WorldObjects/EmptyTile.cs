@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using MiniFramework2d.Abstracts;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
 using MiniFramework2d.Interfaces;
+using MiniFramework2d.Items;
 using MiniFramework2d.Utilities;
 
 namespace MiniFramework2d.WorldObjects
@@ -25,7 +27,9 @@ namespace MiniFramework2d.WorldObjects
         {
             if (ContainsEvent)
             {
-                actor.EquipNewWeapon(WeaponFactory.GetWeapon(WeaponType.MainHand, AttackType.Slash));
+                Weapon weaponFound = WeaponFactory.GetWeapon(WeaponType.MainHand, AttackType.Slash);
+                actor.EquipNewWeapon(weaponFound);
+                Logger.Log($"The empty tile contained an event!\n{actor.Name} found and equipped a weapon! \n{weaponFound}");
             }
         }
     }

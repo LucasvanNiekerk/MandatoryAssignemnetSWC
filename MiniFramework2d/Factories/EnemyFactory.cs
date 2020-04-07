@@ -9,9 +9,9 @@ using MiniFramework2d.WorldObjects;
 
 namespace MiniFramework2d.Factories
 {
-    public class EnemyFactory: IFactory
+    public static class EnemyFactory //IFactory
     {
-        public Enemy GetEnemy(Point position, int health = 5, int attack = 5)
+        public static Enemy GetEnemy(Point position, int health = 5, int attack = 5)
         {
             return new Enemy(RandomInformation.Name(), 
                 RandomInformation.Description(""), 
@@ -20,7 +20,7 @@ namespace MiniFramework2d.Factories
                 attack);
         }
 
-        public Enemy GetEnemyWithGear(Point position, int health = 5, int attack = 5)
+        public static Enemy GetEnemyWithGear(Point position, int health = 5, int attack = 5)
         {
             Enemy result = new Enemy(RandomInformation.Name(), 
                 RandomInformation.Description(""), 

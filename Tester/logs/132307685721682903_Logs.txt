@@ -1,0 +1,146 @@
+07/04/2020 23.29.32: Game start!
+There are 5 actors alive!
+
+07/04/2020 23.29.32: Hero Alba is at X: 5 and Y: 5.
+07/04/2020 23.29.41: Hero Alba moved to X: 5 and Y: 4
+07/04/2020 23.29.41: Hero Alba collided with Fire
+07/04/2020 23.29.41: Hero Alba attacked Fire for 42 damage. 
+Fire died!
+07/04/2020 23.29.41: Next actors turn...
+
+07/04/2020 23.29.41: Next actors turn...
+
+07/04/2020 23.29.41: Earth is at X: 5 and Y: 4.
+07/04/2020 23.29.41: Earth moved to X: 5 and Y: 5
+07/04/2020 23.29.41: Earth stepped on an empty tile!
+07/04/2020 23.29.41: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 8 Slash
+07/04/2020 23.29.41: Next actors turn...
+
+07/04/2020 23.29.41: Water is at X: 5 and Y: 4.
+07/04/2020 23.29.41: Water moved to X: 4 and Y: 4
+07/04/2020 23.29.41: Water entered a town and healed up. Water is at full health 2.
+07/04/2020 23.29.41: Next actors turn...
+
+07/04/2020 23.29.41: Fire is at X: 5 and Y: 4.
+07/04/2020 23.29.41: Fire moved to X: 4 and Y: 4
+07/04/2020 23.29.41: Fire entered a town and healed up. Fire is at full health 2.
+07/04/2020 23.29.41: Next actors turn...
+
+07/04/2020 23.29.41: These actors died this turn:
+Fire
+
+07/04/2020 23.29.41: Hero Alba is at X: 5 and Y: 4.
+07/04/2020 23.29.43: Hero Alba moved to X: 4 and Y: 4
+07/04/2020 23.29.43: Hero Alba entered a town and healed up. Hero Alba is at full health 10.
+07/04/2020 23.29.43: Next actors turn...
+
+07/04/2020 23.29.43: Earth is at X: 5 and Y: 5.
+07/04/2020 23.29.43: Earth moved to X: 5 and Y: 4
+07/04/2020 23.29.43: Earth entered a town and healed up. Earth is at full health 2.
+07/04/2020 23.29.43: Next actors turn...
+
+07/04/2020 23.29.43: Water is at X: 4 and Y: 4.
+07/04/2020 23.29.43: Water moved to X: 3 and Y: 4
+07/04/2020 23.29.43: Water entered a town and healed up. Water is at full health 2.
+07/04/2020 23.29.43: Next actors turn...
+
+07/04/2020 23.29.43: Fire is at X: 4 and Y: 4.
+07/04/2020 23.29.43: Fire moved to X: 5 and Y: 4
+07/04/2020 23.29.43: Fire entered a town and healed up. Fire is at full health 2.
+07/04/2020 23.29.44: Next actors turn...
+
+07/04/2020 23.29.44: No one died this turn!
+07/04/2020 23.29.44: Hero Alba is at X: 4 and Y: 4.
+07/04/2020 23.29.45: Hero Alba moved to X: 3 and Y: 4
+07/04/2020 23.29.45: Hero Alba entered a town and healed up. Hero Alba is at full health 10.
+07/04/2020 23.29.45: Next actors turn...
+
+07/04/2020 23.29.45: Earth is at X: 5 and Y: 4.
+07/04/2020 23.29.45: Earth moved to X: 6 and Y: 4
+07/04/2020 23.29.45: Earth entered a town and healed up. Earth is at full health 2.
+07/04/2020 23.29.45: Next actors turn...
+
+07/04/2020 23.29.45: Water is at X: 3 and Y: 4.
+07/04/2020 23.29.45: Water moved to X: 3 and Y: 3
+07/04/2020 23.29.45: Water stepped on an empty tile!
+07/04/2020 23.29.45: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 5 Slash
+07/04/2020 23.29.45: Next actors turn...
+
+07/04/2020 23.29.45: Fire is at X: 5 and Y: 4.
+07/04/2020 23.29.45: Fire moved to X: 5 and Y: 5
+07/04/2020 23.29.45: Fire stepped on an empty tile!
+07/04/2020 23.29.45: The empty tile contained an event!
+Fire found and equipped a weapon! 
+MainHand 24 Slash
+07/04/2020 23.29.45: Next actors turn...
+
+07/04/2020 23.29.45: No one died this turn!
+07/04/2020 23.29.45: Hero Alba is at X: 3 and Y: 4.
+07/04/2020 23.29.46: Hero Alba moved to X: 3 and Y: 3
+07/04/2020 23.29.46: Hero Alba stepped on an empty tile!
+07/04/2020 23.29.46: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 12 Slash
+07/04/2020 23.29.46: Next actors turn...
+
+07/04/2020 23.29.46: Earth is at X: 6 and Y: 4.
+07/04/2020 23.29.46: Earth moved to X: 6 and Y: 3
+07/04/2020 23.29.46: Earth stepped on an empty tile!
+07/04/2020 23.29.46: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 34 Slash
+07/04/2020 23.29.46: Next actors turn...
+
+07/04/2020 23.29.46: Water is at X: 3 and Y: 3.
+07/04/2020 23.29.46: Water moved to X: 2 and Y: 3
+07/04/2020 23.29.46: Water stepped on an empty tile!
+07/04/2020 23.29.46: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 33 Slash
+07/04/2020 23.29.46: Next actors turn...
+
+07/04/2020 23.29.46: Fire is at X: 5 and Y: 5.
+07/04/2020 23.29.46: Fire moved to X: 4 and Y: 5
+07/04/2020 23.29.46: Fire stepped on an empty tile!
+07/04/2020 23.29.46: The empty tile contained an event!
+Fire found and equipped a weapon! 
+MainHand 52 Slash
+07/04/2020 23.29.47: Next actors turn...
+
+07/04/2020 23.29.47: No one died this turn!
+07/04/2020 23.29.47: Hero Alba is at X: 3 and Y: 3.
+07/04/2020 23.29.47: Hero Alba moved to X: 2 and Y: 3
+07/04/2020 23.29.47: Hero Alba stepped on an empty tile!
+07/04/2020 23.29.47: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 23 Slash
+07/04/2020 23.29.47: Next actors turn...
+
+07/04/2020 23.29.47: Earth is at X: 6 and Y: 3.
+07/04/2020 23.29.47: Earth moved to X: 6 and Y: 2
+07/04/2020 23.29.47: Earth stepped on an empty tile!
+07/04/2020 23.29.47: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 8 Slash
+07/04/2020 23.29.47: Next actors turn...
+
+07/04/2020 23.29.47: Water is at X: 2 and Y: 3.
+07/04/2020 23.29.47: Water moved to X: 2 and Y: 4
+07/04/2020 23.29.47: Water stepped on an empty tile!
+07/04/2020 23.29.47: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 26 Slash
+07/04/2020 23.29.48: Next actors turn...
+
+07/04/2020 23.29.48: Fire is at X: 4 and Y: 5.
+07/04/2020 23.29.48: Fire moved to X: 4 and Y: 6
+07/04/2020 23.29.48: Fire entered a town and healed up. Fire is at full health 2.
+07/04/2020 23.29.48: Next actors turn...
+
+07/04/2020 23.29.48: No one died this turn!
+07/04/2020 23.29.48: Hero Alba is at X: 2 and Y: 3.
+07/04/2020 23.30.00: Hero Alba moved to X: 2 and Y: 4

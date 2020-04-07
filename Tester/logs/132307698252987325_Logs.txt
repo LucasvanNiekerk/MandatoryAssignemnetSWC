@@ -1,0 +1,475 @@
+07/04/2020 23.50.25: Game start!
+There are 5 actors alive!
+
+07/04/2020 23.50.25: Hero Alba is at X: 5 and Y: 5.
+07/04/2020 23.50.30: Hero Alba moved to X: 5 and Y: 6
+07/04/2020 23.50.30: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+07/04/2020 23.50.30: 
+
+07/04/2020 23.50.30: Water is at X: 0 and Y: 1.
+07/04/2020 23.50.30: Water moved to X: 1 and Y: 1
+07/04/2020 23.50.30: Water stepped on an empty tile!
+07/04/2020 23.50.30: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 11 Slash
+07/04/2020 23.50.30: 
+
+07/04/2020 23.50.31: Water is at X: 1 and Y: 2.
+07/04/2020 23.50.31: Water moved to X: 1 and Y: 1
+07/04/2020 23.50.31: Water collided with Water
+07/04/2020 23.50.31: Water entered combat with Water!
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 169health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 138health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 107health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 76health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 45health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+ is at 14health.
+07/04/2020 23.50.31: Water attacked Water for -4 damage. 
+ is at 100health.
+07/04/2020 23.50.31: Water attacked Water for 31 damage. 
+Water died!
+07/04/2020 23.50.31: 
+
+07/04/2020 23.50.31: Earth is at X: 2 and Y: 3.
+07/04/2020 23.50.31: Earth moved to X: 3 and Y: 3
+07/04/2020 23.50.31: Earth stepped on an empty tile!
+07/04/2020 23.50.31: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 7 Slash
+07/04/2020 23.50.31: 
+
+07/04/2020 23.50.31: Fire is at X: 3 and Y: 7.
+07/04/2020 23.50.31: Fire moved to X: 3 and Y: 6
+07/04/2020 23.50.31: Fire entered a Dungeon!
+07/04/2020 23.50.31: There are 3 enemies in the dungeon.
+07/04/2020 23.50.31: Fire entered combat with Water!
+07/04/2020 23.50.31: Fire attacked Water for 20 damage. 
+Water died!
+07/04/2020 23.50.31: Fire is looting Water...
+07/04/2020 23.50.31: Fire is resting... Healed to full health 75
+07/04/2020 23.50.31: Fire entered combat with Fire!
+07/04/2020 23.50.31: Fire and Fire are evenly matched and decided to make peace... for now.
+07/04/2020 23.50.31: Fire is resting... Healed to full health 75
+07/04/2020 23.50.31: Fire entered combat with Ligtning!
+07/04/2020 23.50.31: Fire attacked Ligtning for 20 damage. 
+Ligtning died!
+07/04/2020 23.50.31: Fire is looting Ligtning...
+07/04/2020 23.50.31: Fire is resting... Healed to full health 75
+07/04/2020 23.50.31: Fire defeated the Dungeon!
+07/04/2020 23.50.31: 
+
+07/04/2020 23.50.31: These actors died this turn:
+Water
+
+07/04/2020 23.50.31: Hero Alba is at X: 5 and Y: 6.
+07/04/2020 23.50.32: Hero Alba moved to X: 4 and Y: 6
+07/04/2020 23.50.32: Hero Alba stepped on an empty tile!
+07/04/2020 23.50.32: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 11 Slash
+07/04/2020 23.50.33: 
+
+07/04/2020 23.50.33: Water is at X: 1 and Y: 1.
+07/04/2020 23.50.33: Water moved to X: 2 and Y: 1
+07/04/2020 23.50.33: Water stepped on an empty tile!
+07/04/2020 23.50.33: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 10 Slash
+07/04/2020 23.50.33: 
+
+07/04/2020 23.50.33: Earth is at X: 3 and Y: 3.
+07/04/2020 23.50.33: Earth moved to X: 2 and Y: 3
+07/04/2020 23.50.33: Earth stepped on an empty tile!
+07/04/2020 23.50.33: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 12 Slash
+07/04/2020 23.50.33: 
+
+07/04/2020 23.50.33: Fire is at X: 3 and Y: 6.
+07/04/2020 23.50.33: Fire moved to X: 3 and Y: 7
+07/04/2020 23.50.33: Fire stepped on an empty tile!
+07/04/2020 23.50.33: The empty tile contained an event!
+Fire found and equipped a weapon! 
+MainHand 9 Slash
+07/04/2020 23.50.33: 
+
+07/04/2020 23.50.33: No one died this turn!
+
+07/04/2020 23.50.33: Hero Alba is at X: 4 and Y: 6.
+07/04/2020 23.50.34: Hero Alba moved to X: 3 and Y: 6
+07/04/2020 23.50.34: Hero Alba entered a Dungeon!
+07/04/2020 23.50.34: There are 1 enemies in the dungeon.
+07/04/2020 23.50.34: Hero Alba entered combat with Ligtning!
+07/04/2020 23.50.34: Hero Alba and Ligtning are evenly matched and decided to make peace... for now.
+07/04/2020 23.50.34: Hero Alba is resting... Healed to full health 125
+07/04/2020 23.50.34: Hero Alba defeated the Dungeon!
+07/04/2020 23.50.34: 
+
+07/04/2020 23.50.34: Water is at X: 2 and Y: 1.
+07/04/2020 23.50.34: Water moved to X: 1 and Y: 1
+07/04/2020 23.50.34: Water stepped on an empty tile!
+07/04/2020 23.50.34: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 5 Slash
+07/04/2020 23.50.35: 
+
+07/04/2020 23.50.35: Earth is at X: 2 and Y: 3.
+07/04/2020 23.50.35: Earth moved to X: 2 and Y: 4
+07/04/2020 23.50.35: Earth stepped on an empty tile!
+07/04/2020 23.50.35: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 6 Slash
+07/04/2020 23.50.35: 
+
+07/04/2020 23.50.35: Fire is at X: 3 and Y: 7.
+07/04/2020 23.50.35: Fire moved to X: 2 and Y: 7
+07/04/2020 23.50.35: Fire stepped on an empty tile!
+07/04/2020 23.50.35: The empty tile contained an event!
+Fire found and equipped a weapon! 
+MainHand 9 Slash
+07/04/2020 23.50.35: 
+
+07/04/2020 23.50.35: No one died this turn!
+
+07/04/2020 23.50.35: Hero Alba is at X: 3 and Y: 6.
+07/04/2020 23.50.36: Hero Alba moved to X: 3 and Y: 7
+07/04/2020 23.50.36: Hero Alba stepped on an empty tile!
+07/04/2020 23.50.36: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 2 Slash
+07/04/2020 23.50.36: 
+
+07/04/2020 23.50.36: Water is at X: 1 and Y: 1.
+07/04/2020 23.50.36: Water moved to X: 2 and Y: 1
+07/04/2020 23.50.36: Water stepped on an empty tile!
+07/04/2020 23.50.36: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 10 Slash
+07/04/2020 23.50.36: 
+
+07/04/2020 23.50.36: Earth is at X: 2 and Y: 4.
+07/04/2020 23.50.36: Earth moved to X: 3 and Y: 4
+07/04/2020 23.50.36: Earth entered a town and healed up. Earth is at full health 50.
+07/04/2020 23.50.36: 
+
+07/04/2020 23.50.36: Fire is at X: 2 and Y: 7.
+07/04/2020 23.50.36: Fire moved to X: 1 and Y: 7
+07/04/2020 23.50.36: Fire stepped on an empty tile!
+07/04/2020 23.50.36: The empty tile contained an event!
+Fire found and equipped a weapon! 
+MainHand 9 Slash
+07/04/2020 23.50.36: 
+
+07/04/2020 23.50.36: No one died this turn!
+
+07/04/2020 23.50.37: Hero Alba is at X: 3 and Y: 7.
+07/04/2020 23.50.37: Hero Alba moved to X: 2 and Y: 7
+07/04/2020 23.50.37: Hero Alba stepped on an empty tile!
+07/04/2020 23.50.37: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 13 Slash
+07/04/2020 23.50.37: 
+
+07/04/2020 23.50.37: Water is at X: 2 and Y: 1.
+07/04/2020 23.50.37: Water moved to X: 2 and Y: 2
+07/04/2020 23.50.37: Water entered a town and healed up. Water is at full health 100.
+07/04/2020 23.50.37: 
+
+07/04/2020 23.50.37: Earth is at X: 3 and Y: 4.
+07/04/2020 23.50.37: Earth moved to X: 2 and Y: 4
+07/04/2020 23.50.37: Earth stepped on an empty tile!
+07/04/2020 23.50.37: The empty tile contained an event!
+Earth found and equipped a weapon! 
+MainHand 10 Slash
+07/04/2020 23.50.37: 
+
+07/04/2020 23.50.37: Fire is at X: 1 and Y: 7.
+07/04/2020 23.50.37: Fire moved to X: 2 and Y: 7
+07/04/2020 23.50.37: Fire collided with Hero Alba
+07/04/2020 23.50.37: Fire entered combat with Hero Alba!
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 68health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 61health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 54health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 47health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 40health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 33health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 26health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 19health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 12health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+ is at 5health.
+07/04/2020 23.50.37: Fire attacked Hero Alba for 0 damage. 
+ is at 125health.
+07/04/2020 23.50.37: Hero Alba attacked Fire for 7 damage. 
+Fire died!
+07/04/2020 23.50.38: 
+
+07/04/2020 23.50.38: These actors died this turn:
+Fire
+
+07/04/2020 23.50.38: Hero Alba is at X: 2 and Y: 7.
+07/04/2020 23.50.43: Hero Alba moved to X: 3 and Y: 7
+07/04/2020 23.50.43: Hero Alba stepped on an empty tile!
+07/04/2020 23.50.43: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 8 Slash
+07/04/2020 23.50.43: 
+
+07/04/2020 23.50.43: Water is at X: 2 and Y: 2.
+07/04/2020 23.50.43: Water moved to X: 2 and Y: 3
+07/04/2020 23.50.43: Water stepped on an empty tile!
+07/04/2020 23.50.43: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 12 Slash
+07/04/2020 23.50.43: 
+
+07/04/2020 23.50.43: Earth is at X: 2 and Y: 4.
+07/04/2020 23.50.43: Earth moved to X: 3 and Y: 4
+07/04/2020 23.50.43: Earth entered a town and healed up. Earth is at full health 50.
+07/04/2020 23.50.43: 
+
+07/04/2020 23.50.43: No one died this turn!
+
+07/04/2020 23.50.43: Hero Alba is at X: 3 and Y: 7.
+07/04/2020 23.50.44: Hero Alba moved to X: 3 and Y: 6
+07/04/2020 23.50.44: Hero Alba entered a Dungeon!
+07/04/2020 23.50.44: There are 2 enemies in the dungeon.
+07/04/2020 23.50.44: Hero Alba entered combat with Ligtning!
+07/04/2020 23.50.44: Hero Alba and Ligtning are evenly matched and decided to make peace... for now.
+07/04/2020 23.50.44: Hero Alba is resting... Healed to full health 125
+07/04/2020 23.50.44: Hero Alba entered combat with Ligtning!
+07/04/2020 23.50.44: Hero Alba attacked Ligtning for 11 damage. 
+Ligtning died!
+07/04/2020 23.50.44: Hero Alba is looting Ligtning...
+07/04/2020 23.50.44: Hero Alba found and equipped Head 1!
+07/04/2020 23.50.44: Hero Alba is resting... Healed to full health 125
+07/04/2020 23.50.44: Hero Alba defeated the Dungeon!
+07/04/2020 23.50.45: 
+
+07/04/2020 23.50.45: Water is at X: 2 and Y: 3.
+07/04/2020 23.50.45: Water moved to X: 3 and Y: 3
+07/04/2020 23.50.45: Water stepped on an empty tile!
+07/04/2020 23.50.45: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 14 Slash
+07/04/2020 23.50.45: 
+
+07/04/2020 23.50.45: Earth is at X: 3 and Y: 4.
+07/04/2020 23.50.45: Earth moved to X: 3 and Y: 5
+07/04/2020 23.50.45: Earth entered a Dungeon!
+07/04/2020 23.50.45: There are 3 enemies in the dungeon.
+07/04/2020 23.50.45: Earth entered combat with Earth!
+07/04/2020 23.50.45: Earth attacked Earth for 30 damage. 
+Earth died!
+07/04/2020 23.50.45: Earth is looting Earth...
+07/04/2020 23.50.45: Earth found and equipped MainHand 5 Slash!
+07/04/2020 23.50.45: Earth is resting... Healed to full health 50
+07/04/2020 23.50.45: Earth entered combat with Fire!
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 48health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 46health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 44health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 42health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 40health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 38health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 36health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 34health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 32health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 30health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 28health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 26health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 24health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 22health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 20health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 18health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 16health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 14health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 12health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 10health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 8health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 6health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 4health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Earth attacked Fire for -1 damage. 
+ is at 2health.
+07/04/2020 23.50.45: Fire attacked Earth for 2 damage. 
+Earth died!
+07/04/2020 23.50.45: Earth defeated the Dungeon!
+07/04/2020 23.50.45: 
+
+07/04/2020 23.50.45: These actors died this turn:
+Earth
+
+07/04/2020 23.50.45: Hero Alba is at X: 3 and Y: 6.
+07/04/2020 23.50.45: Hero Alba moved to X: 3 and Y: 5
+07/04/2020 23.50.45: Hero Alba entered a Dungeon!
+07/04/2020 23.50.45: There are 1 enemies in the dungeon.
+07/04/2020 23.50.45: Hero Alba entered combat with Water!
+07/04/2020 23.50.45: Hero Alba attacked Water for 50 damage. 
+Water died!
+07/04/2020 23.50.45: Hero Alba is looting Water...
+07/04/2020 23.50.45: Hero Alba found and equipped Head 13!
+07/04/2020 23.50.45: Hero Alba found and equipped Shoulder 7!
+07/04/2020 23.50.45: Hero Alba found and equipped Chest 7!
+07/04/2020 23.50.45: Hero Alba found and equipped Legs 13!
+07/04/2020 23.50.45: Hero Alba found and equipped MainHand 7 Slash!
+07/04/2020 23.50.45: Hero Alba is resting... Healed to full health 125
+07/04/2020 23.50.45: Hero Alba defeated the Dungeon!
+07/04/2020 23.50.46: 
+
+07/04/2020 23.50.46: Water is at X: 3 and Y: 3.
+07/04/2020 23.50.46: Water moved to X: 3 and Y: 4
+07/04/2020 23.50.46: Water entered a town and healed up. Water is at full health 100.
+07/04/2020 23.50.46: 
+
+07/04/2020 23.50.46: No one died this turn!
+
+07/04/2020 23.50.46: Hero Alba is at X: 3 and Y: 5.
+07/04/2020 23.50.46: Hero Alba moved to X: 3 and Y: 4
+07/04/2020 23.50.46: Hero Alba collided with Water
+07/04/2020 23.50.46: Hero Alba entered combat with Water!
+07/04/2020 23.50.46: Hero Alba attacked Water for 0 damage. 
+ is at 100health.
+07/04/2020 23.50.46: Water attacked Hero Alba for 53 damage. 
+ is at 72health.
+07/04/2020 23.50.46: Hero Alba attacked Water for 0 damage. 
+ is at 100health.
+07/04/2020 23.50.46: Water attacked Hero Alba for 53 damage. 
+ is at 19health.
+07/04/2020 23.50.46: Hero Alba attacked Water for 0 damage. 
+ is at 100health.
+07/04/2020 23.50.46: Water attacked Hero Alba for 53 damage. 
+Hero Alba died!
+07/04/2020 23.50.47: 
+
+07/04/2020 23.50.47: Water is at X: 3 and Y: 4.
+07/04/2020 23.50.47: Water moved to X: 2 and Y: 4
+07/04/2020 23.50.47: Water stepped on an empty tile!
+07/04/2020 23.50.47: The empty tile contained an event!
+Water found and equipped a weapon! 
+MainHand 4 Slash
+07/04/2020 23.50.47: 
+
+07/04/2020 23.50.47: These actors died this turn:
+Hero Alba
+
+07/04/2020 23.50.47: The game is over...
+The winner is Water congratiolations!

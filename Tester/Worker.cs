@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data;
 using MiniFramework2d;
 using MiniFramework2d.Enums;
 using MiniFramework2d.Factories;
@@ -13,10 +14,9 @@ namespace Tester
         public void Start()
         {
             //World world = GenerateWorld();
-            World world = new World(15, 15);
+            World world = new World(10, 10);
             Player player = GeneratePlayer();
-            List<Enemy> enemies = GenerateEnemies();
-            GenerateWeaponsForEnemies(enemies);
+            List<Enemy> enemies = GenerateEnemies(world);
 
 
             GameInitiazier game = new GameInitiazier(world, player, enemies);
@@ -24,36 +24,20 @@ namespace Tester
             game.Start();
         }
 
-        private void GenerateWeaponsForEnemies(List<Enemy> enemies)
-        {
-            foreach (var enemy in enemies)
-            {
-                //All enemies start fully geared
-                foreach (var gearType in EnumLists.GearTypeList)
-                {
-                    enemy.EquipNewGear(GearFactory.GetGear(gearType));
-                }
-
-                //All enemies have a main and offhand weapon.
-                foreach (var weaponType in EnumLists.WeaponTypeList)
-                {
-                    enemy.EquipNewWeapon(WeaponFactory.GetWeapon(weaponType, AttackType.Slash));
-                }
-
-            }
-        }
-
-        private List<Enemy> GenerateEnemies()
+        private List<Enemy> GenerateEnemies(World world)
         {
             List<Enemy> enemies = new List<Enemy>();
 
-            enemies.Add(new Enemy("Orc", "Smelly", new Point(1, 1), 2, 2));
+            enemies.Add(EnemyFactory.GetEnemyWithGear(new Point(0, 1), 100, 10));
+            enemies.Add(EnemyFactory.GetEnemyWithGear(new Point(1, 2), 200, 10));
+            enemies.Add(EnemyFactory.GetEnemyWithGear(new Point(2, 3), 50, 10));
+            enemies.Add(EnemyFactory.GetEnemyWithGear(new Point(3, 7), 75, 10));
             return enemies;
         }
 
         private Player GeneratePlayer()
         {
-            Player p = new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 10, 10);
+            Player p = new Player("Hero Alba", "A hero on a journay", new Point(5, 5), 125, 15);
             p.EquipNewGear(GearFactory.GetGear(GearType.Chest));
             p.EquipNewWeapon(WeaponFactory.GetWeapon(WeaponType.MainHand, AttackType.Blunt));
             return p;
