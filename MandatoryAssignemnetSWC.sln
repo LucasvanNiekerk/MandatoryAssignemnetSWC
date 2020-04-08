@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniFramework2d", "MiniFramework2d\MiniFramework2d.csproj", "{5A53A4BD-401A-4FB4-84C9-364E0A6E6AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{02BFBB6A-BB52-4685-ADB1-06D77F66EC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tester", "Tester\Tester.csproj", "{02BFBB6A-BB52-4685-ADB1-06D77F66EC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterLogger", "TesterLogger\TesterLogger.csproj", "{CDAD7C91-CD5A-44BD-BFCD-182E4254FE87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{02BFBB6A-BB52-4685-ADB1-06D77F66EC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02BFBB6A-BB52-4685-ADB1-06D77F66EC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02BFBB6A-BB52-4685-ADB1-06D77F66EC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAD7C91-CD5A-44BD-BFCD-182E4254FE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAD7C91-CD5A-44BD-BFCD-182E4254FE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAD7C91-CD5A-44BD-BFCD-182E4254FE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAD7C91-CD5A-44BD-BFCD-182E4254FE87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

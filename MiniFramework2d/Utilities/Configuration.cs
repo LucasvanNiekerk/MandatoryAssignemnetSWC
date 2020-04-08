@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace MiniFramework2d.Utilities
 {
     public static class Configuration
     {
-        public const string LogPath = "../../../logs/";
-        public static readonly string LogFileName = DateTime.Now.ToFileTimeUtc().ToString();
+        public static readonly string LogPath = Directory.GetParent(Environment.CurrentDirectory).Parent?.Parent?.FullName + "\\logs\\";
+        public static readonly string LogFileName = DateTime.Now.ToFileTimeUtc() + "_Logs.txt";
 
         public const int TurnDelay = 500;
 

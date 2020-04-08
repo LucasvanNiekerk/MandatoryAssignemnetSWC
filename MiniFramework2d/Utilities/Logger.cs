@@ -10,7 +10,7 @@ namespace MiniFramework2d.Utilities
         {
             string path = Configuration.LogPath;
             VerifyDir(path);
-            string fileName = Configuration.LogFileName + "_Logs.txt";
+            string fileName = Configuration.LogFileName;
             try
             {
                 StreamWriter file = new StreamWriter(path + fileName, true);

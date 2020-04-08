@@ -10,7 +10,6 @@ namespace Tester
             Worker worker = new Worker();
             worker.Start();
 
-
             Console.WriteLine("Press any key to close...");
             Console.ReadKey();
         }
