@@ -11,7 +11,7 @@ namespace MiniFramework2d.Utilities
             List<string> words = new List<string>()
             {
                 "Fire",
-                "Ligtning",
+                "Lightning",
                 "Water",
                 "Earth",
                 "Light"
