@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
 
 namespace MiniFramework2d.Utilities
 {
@@ -9,7 +8,7 @@ namespace MiniFramework2d.Utilities
     {
         private static Random rng = new Random(DateTime.Now.Millisecond);
 
-        private static readonly string namePath = Directory.GetParent(Configuration.LogPath).Parent.Parent.FullName + "\\MiniFramework2d\\Utilities\\Names\\";
+        private static readonly string namePath = FindPath.FindDirectory("MandatoryAssignemnetSWC", extraDirectory: "\\MiniFramework2d\\Utilities\\Names\\");
         private static readonly string[] maleNames = File.ReadAllLines(namePath + "drengenavne.txt");
         private static readonly string[] femaleNames = File.ReadAllLines(namePath + "pigenavne.txt");
         private static readonly string[] sirNames = File.ReadAllLines(namePath + "efternavne.txt");
@@ -25,8 +24,6 @@ namespace MiniFramework2d.Utilities
                 return femaleNames[rng.Next(femaleNames.Length)] + " " + sirNames[rng.Next(sirNames.Length)];
             }
         }
-
-
 
         public static string Description(string type)
         {
