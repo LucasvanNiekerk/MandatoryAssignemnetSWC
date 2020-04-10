@@ -71,6 +71,7 @@ namespace MiniFramework2d
         {
             _actors.ForEach(currentActor =>
             {
+                _world.PrintMap(_actors);
                 //If currentActor didn't die previously in the round they will act.
                 if (!currentActor.Dead)
                 {

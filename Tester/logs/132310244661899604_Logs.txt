@@ -1,0 +1,878 @@
+10/04/2020 22.34.26: Game start!
+There are 5 actors alive!
+
+10/04/2020 22.34.26: Hero Alba is at X: 5 and Y: 5.
+10/04/2020 22.34.31: Hero Alba moved to X: 5 and Y: 4
+10/04/2020 22.34.31: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.34.32: End of Hero Alba's turn 
+
+10/04/2020 22.34.32: Hossam Andreassen is at X: 0 and Y: 1.
+10/04/2020 22.34.32: Hossam Andreassen moved to X: 1 and Y: 1
+10/04/2020 22.34.32: Hossam Andreassen entered a town and healed up. Hossam Andreassen is at full health 100.
+10/04/2020 22.34.33: End of Hossam Andreassen's turn 
+
+10/04/2020 22.34.33: Kain Mohamed is at X: 1 and Y: 2.
+10/04/2020 22.34.33: Kain Mohamed moved to X: 1 and Y: 3
+10/04/2020 22.34.33: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.34.33: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 8 Slash
+10/04/2020 22.34.34: End of Kain Mohamed's turn 
+
+10/04/2020 22.34.34: Stinus Meyer is at X: 2 and Y: 3.
+10/04/2020 22.34.34: Stinus Meyer moved to X: 2 and Y: 4
+10/04/2020 22.34.34: Stinus Meyer entered a town and healed up. Stinus Meyer is at full health 50.
+10/04/2020 22.34.34: End of Stinus Meyer's turn 
+
+10/04/2020 22.34.35: Raziel Kjaergaard is at X: 3 and Y: 7.
+10/04/2020 22.34.35: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.34.35: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.34.35: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.34.35: No one died this turn!
+
+10/04/2020 22.34.36: Hero Alba is at X: 5 and Y: 4.
+10/04/2020 22.34.42: Hero Alba moved to X: 4 and Y: 4
+10/04/2020 22.34.42: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.34.43: End of Hero Alba's turn 
+
+10/04/2020 22.34.43: Hossam Andreassen is at X: 1 and Y: 1.
+10/04/2020 22.34.43: Hossam Andreassen moved to X: 0 and Y: 1
+10/04/2020 22.34.43: Hossam Andreassen stepped on an empty tile!
+10/04/2020 22.34.43: The empty tile contained an event!
+Hossam Andreassen found and equipped a weapon! 
+MainHand 5 Slash
+10/04/2020 22.34.43: End of Hossam Andreassen's turn 
+
+10/04/2020 22.34.44: Kain Mohamed is at X: 1 and Y: 3.
+10/04/2020 22.34.44: Kain Mohamed moved to X: 2 and Y: 3
+10/04/2020 22.34.44: Kain Mohamed entered a town and healed up. Kain Mohamed is at full health 200.
+10/04/2020 22.34.44: End of Kain Mohamed's turn 
+
+10/04/2020 22.34.45: Stinus Meyer is at X: 2 and Y: 4.
+10/04/2020 22.34.45: Stinus Meyer moved to X: 2 and Y: 3
+10/04/2020 22.34.45: Stinus Meyer collided with Kain Mohamed
+10/04/2020 22.34.45: Stinus Meyer entered combat with Kain Mohamed!
+10/04/2020 22.34.45: Stinus Meyer and Kain Mohamed are evenly matched and decided to make peace... for now.
+10/04/2020 22.34.45: Stinus Meyer entered a town and healed up. Stinus Meyer is at full health 50.
+10/04/2020 22.34.45: End of Stinus Meyer's turn 
+
+10/04/2020 22.34.46: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.34.46: Raziel Kjaergaard moved to X: 3 and Y: 7
+10/04/2020 22.34.46: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.34.46: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 8 Slash
+10/04/2020 22.34.46: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.34.46: No one died this turn!
+
+10/04/2020 22.34.47: Hero Alba is at X: 4 and Y: 4.
+10/04/2020 22.34.49: Hero Alba moved to X: 3 and Y: 4
+10/04/2020 22.34.49: Hero Alba entered a Dungeon!
+10/04/2020 22.34.49: There are 1 enemies in the dungeon.
+10/04/2020 22.34.49: Hero Alba entered combat with Eton aagaard!
+10/04/2020 22.34.49: Hero Alba attacked Eton aagaard for 7 damage. 
+Eton aagaard died!
+10/04/2020 22.34.49: Hero Alba is looting Eton aagaard...
+10/04/2020 22.34.49: Hero Alba found and equipped Head 2!
+10/04/2020 22.34.49: Hero Alba found and equipped MainHand 7 Slash!
+10/04/2020 22.34.49: Hero Alba is resting... Healed to full health 125
+10/04/2020 22.34.49: Hero Alba defeated the Dungeon!
+10/04/2020 22.34.50: End of Hero Alba's turn 
+
+10/04/2020 22.34.50: Hossam Andreassen is at X: 0 and Y: 1.
+10/04/2020 22.34.50: Hossam Andreassen moved to X: 1 and Y: 1
+10/04/2020 22.34.50: Hossam Andreassen entered a town and healed up. Hossam Andreassen is at full health 100.
+10/04/2020 22.34.51: End of Hossam Andreassen's turn 
+
+10/04/2020 22.34.51: Kain Mohamed is at X: 2 and Y: 3.
+10/04/2020 22.34.51: Kain Mohamed moved to X: 2 and Y: 2
+10/04/2020 22.34.51: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.34.51: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 6 Slash
+10/04/2020 22.34.52: End of Kain Mohamed's turn 
+
+10/04/2020 22.34.52: Stinus Meyer is at X: 2 and Y: 3.
+10/04/2020 22.34.52: Stinus Meyer moved to X: 1 and Y: 3
+10/04/2020 22.34.52: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.34.52: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 2 Slash
+10/04/2020 22.34.53: End of Stinus Meyer's turn 
+
+10/04/2020 22.34.53: Raziel Kjaergaard is at X: 3 and Y: 7.
+10/04/2020 22.34.53: Raziel Kjaergaard moved to X: 3 and Y: 8
+10/04/2020 22.34.53: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.34.54: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.34.54: No one died this turn!
+
+10/04/2020 22.34.54: Hero Alba is at X: 3 and Y: 4.
+10/04/2020 22.34.57: Hero Alba moved to X: 3 and Y: 3
+10/04/2020 22.34.57: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.34.58: End of Hero Alba's turn 
+
+10/04/2020 22.34.58: Hossam Andreassen is at X: 1 and Y: 1.
+10/04/2020 22.34.58: Hossam Andreassen moved to X: 2 and Y: 1
+10/04/2020 22.34.58: Hossam Andreassen stepped on an empty tile!
+10/04/2020 22.34.58: The empty tile contained an event!
+Hossam Andreassen found and equipped a weapon! 
+MainHand 4 Slash
+10/04/2020 22.34.59: End of Hossam Andreassen's turn 
+
+10/04/2020 22.34.59: Kain Mohamed is at X: 2 and Y: 2.
+10/04/2020 22.34.59: Kain Mohamed moved to X: 1 and Y: 2
+10/04/2020 22.34.59: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.34.59: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 8 Slash
+10/04/2020 22.35.00: End of Kain Mohamed's turn 
+
+10/04/2020 22.35.00: Stinus Meyer is at X: 1 and Y: 3.
+10/04/2020 22.35.00: Stinus Meyer moved to X: 1 and Y: 4
+10/04/2020 22.35.00: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.00: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 2 Slash
+10/04/2020 22.35.01: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.01: Raziel Kjaergaard is at X: 3 and Y: 8.
+10/04/2020 22.35.01: Raziel Kjaergaard moved to X: 3 and Y: 7
+10/04/2020 22.35.01: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.01: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 9 Slash
+10/04/2020 22.35.02: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.02: No one died this turn!
+
+10/04/2020 22.35.02: Hero Alba is at X: 3 and Y: 3.
+10/04/2020 22.35.03: Hero Alba moved to X: 3 and Y: 2
+10/04/2020 22.35.03: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.03: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.04: End of Hero Alba's turn 
+
+10/04/2020 22.35.04: Hossam Andreassen is at X: 2 and Y: 1.
+10/04/2020 22.35.04: Hossam Andreassen moved to X: 2 and Y: 0
+10/04/2020 22.35.04: Hossam Andreassen entered a town and healed up. Hossam Andreassen is at full health 100.
+10/04/2020 22.35.05: End of Hossam Andreassen's turn 
+
+10/04/2020 22.35.05: Kain Mohamed is at X: 1 and Y: 2.
+10/04/2020 22.35.05: Kain Mohamed moved to X: 0 and Y: 2
+10/04/2020 22.35.05: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.35.05: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 10 Slash
+10/04/2020 22.35.06: End of Kain Mohamed's turn 
+
+10/04/2020 22.35.06: Stinus Meyer is at X: 1 and Y: 4.
+10/04/2020 22.35.06: Stinus Meyer moved to X: 1 and Y: 3
+10/04/2020 22.35.06: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.06: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 12 Slash
+10/04/2020 22.35.06: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.07: Raziel Kjaergaard is at X: 3 and Y: 7.
+10/04/2020 22.35.07: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.35.07: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.07: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.07: No one died this turn!
+
+10/04/2020 22.35.08: Hero Alba is at X: 3 and Y: 2.
+10/04/2020 22.35.09: Hero Alba moved to X: 3 and Y: 1
+10/04/2020 22.35.09: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.09: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 2 Slash
+10/04/2020 22.35.10: End of Hero Alba's turn 
+
+10/04/2020 22.35.10: Hossam Andreassen is at X: 2 and Y: 0.
+10/04/2020 22.35.10: Hossam Andreassen moved to X: 1 and Y: 0
+10/04/2020 22.35.10: Hossam Andreassen stepped on an empty tile!
+10/04/2020 22.35.10: The empty tile contained an event!
+Hossam Andreassen found and equipped a weapon! 
+MainHand 11 Slash
+10/04/2020 22.35.10: End of Hossam Andreassen's turn 
+
+10/04/2020 22.35.11: Kain Mohamed is at X: 0 and Y: 2.
+10/04/2020 22.35.11: Kain Mohamed moved to X: 0 and Y: 1
+10/04/2020 22.35.11: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.35.11: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 3 Slash
+10/04/2020 22.35.11: End of Kain Mohamed's turn 
+
+10/04/2020 22.35.12: Stinus Meyer is at X: 1 and Y: 3.
+10/04/2020 22.35.12: Stinus Meyer moved to X: 2 and Y: 3
+10/04/2020 22.35.12: Stinus Meyer entered a town and healed up. Stinus Meyer is at full health 50.
+10/04/2020 22.35.12: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.12: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.35.13: Raziel Kjaergaard moved to X: 4 and Y: 6
+10/04/2020 22.35.13: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.13: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 10 Slash
+10/04/2020 22.35.13: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.13: No one died this turn!
+
+10/04/2020 22.35.14: Hero Alba is at X: 3 and Y: 1.
+10/04/2020 22.35.15: Hero Alba moved to X: 2 and Y: 1
+10/04/2020 22.35.15: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.15: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 12 Slash
+10/04/2020 22.35.15: End of Hero Alba's turn 
+
+10/04/2020 22.35.15: Hossam Andreassen is at X: 1 and Y: 0.
+10/04/2020 22.35.15: Hossam Andreassen moved to X: 2 and Y: 0
+10/04/2020 22.35.16: Hossam Andreassen entered a town and healed up. Hossam Andreassen is at full health 100.
+10/04/2020 22.35.16: End of Hossam Andreassen's turn 
+
+10/04/2020 22.35.16: Kain Mohamed is at X: 0 and Y: 1.
+10/04/2020 22.35.16: Kain Mohamed moved to X: 0 and Y: 0
+10/04/2020 22.35.16: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.35.16: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 14 Slash
+10/04/2020 22.35.17: End of Kain Mohamed's turn 
+
+10/04/2020 22.35.17: Stinus Meyer is at X: 2 and Y: 3.
+10/04/2020 22.35.17: Stinus Meyer moved to X: 3 and Y: 3
+10/04/2020 22.35.17: Stinus Meyer entered a town and healed up. Stinus Meyer is at full health 50.
+10/04/2020 22.35.18: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.18: Raziel Kjaergaard is at X: 4 and Y: 6.
+10/04/2020 22.35.18: Raziel Kjaergaard moved to X: 4 and Y: 7
+10/04/2020 22.35.18: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.18: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 10 Slash
+10/04/2020 22.35.19: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.19: No one died this turn!
+
+10/04/2020 22.35.19: Hero Alba is at X: 2 and Y: 1.
+10/04/2020 22.35.19: Hero Alba moved to X: 2 and Y: 0
+10/04/2020 22.35.19: Hero Alba collided with Hossam Andreassen
+10/04/2020 22.35.19: Hero Alba entered combat with Hossam Andreassen!
+10/04/2020 22.35.19: Hero Alba and Hossam Andreassen are evenly matched and decided to make peace... for now.
+10/04/2020 22.35.19: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.35.20: End of Hero Alba's turn 
+
+10/04/2020 22.35.20: Hossam Andreassen is at X: 2 and Y: 0.
+10/04/2020 22.35.20: Hossam Andreassen moved to X: 1 and Y: 0
+10/04/2020 22.35.20: Hossam Andreassen stepped on an empty tile!
+10/04/2020 22.35.20: The empty tile contained an event!
+Hossam Andreassen found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.21: End of Hossam Andreassen's turn 
+
+10/04/2020 22.35.21: Kain Mohamed is at X: 0 and Y: 0.
+10/04/2020 22.35.21: Kain Mohamed moved to X: 1 and Y: 0
+10/04/2020 22.35.21: Kain Mohamed collided with Hossam Andreassen
+10/04/2020 22.35.21: Kain Mohamed entered combat with Hossam Andreassen!
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 97health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 199health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 94health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 198health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 91health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 197health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 88health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 196health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 85health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 195health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 82health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 194health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 79health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 193health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 76health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 192health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 73health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 191health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 70health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 190health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 67health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 189health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 64health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 188health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 61health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 187health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 58health.
+10/04/2020 22.35.21: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 186health.
+10/04/2020 22.35.21: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 55health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 185health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 52health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 184health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 49health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 183health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 46health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 182health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 43health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 181health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 40health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 180health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 37health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 179health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 34health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 178health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 31health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 177health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 28health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 176health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 25health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 175health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 22health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 174health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 19health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 173health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 16health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 172health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 13health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 171health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 10health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 170health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 7health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 169health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 4health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 168health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen is at 1health.
+10/04/2020 22.35.22: Hossam Andreassen attacked Kain Mohamed for 1 damage. 
+Kain Mohamed is at 167health.
+10/04/2020 22.35.22: Kain Mohamed attacked Hossam Andreassen for 3 damage. 
+Hossam Andreassen died!
+10/04/2020 22.35.22: Kain Mohamed stepped on an empty tile!
+10/04/2020 22.35.22: The empty tile contained an event!
+Kain Mohamed found and equipped a weapon! 
+MainHand 14 Slash
+10/04/2020 22.35.23: End of Kain Mohamed's turn 
+
+10/04/2020 22.35.23: Stinus Meyer is at X: 3 and Y: 3.
+10/04/2020 22.35.23: Stinus Meyer moved to X: 3 and Y: 2
+10/04/2020 22.35.23: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.23: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 7 Slash
+10/04/2020 22.35.24: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.24: Raziel Kjaergaard is at X: 4 and Y: 7.
+10/04/2020 22.35.24: Raziel Kjaergaard moved to X: 4 and Y: 8
+10/04/2020 22.35.24: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.24: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 6 Slash
+10/04/2020 22.35.25: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.25: These actors died this turn:
+Hossam Andreassen
+
+10/04/2020 22.35.25: Hero Alba is at X: 2 and Y: 0.
+10/04/2020 22.35.30: Hero Alba moved to X: 1 and Y: 0
+10/04/2020 22.35.31: Hero Alba collided with Kain Mohamed
+10/04/2020 22.35.31: Hero Alba entered combat with Kain Mohamed!
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 158health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 149health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 140health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 131health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 122health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 113health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 104health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 95health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 86health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 77health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 68health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 59health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 50health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 41health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 32health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 23health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 14health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed is at 5health.
+10/04/2020 22.35.31: Kain Mohamed attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.31: Hero Alba attacked Kain Mohamed for 9 damage. 
+Kain Mohamed died!
+10/04/2020 22.35.31: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.31: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.31: End of Hero Alba's turn 
+
+10/04/2020 22.35.32: Stinus Meyer is at X: 3 and Y: 2.
+10/04/2020 22.35.32: Stinus Meyer moved to X: 3 and Y: 1
+10/04/2020 22.35.32: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.32: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.33: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.33: Raziel Kjaergaard is at X: 4 and Y: 8.
+10/04/2020 22.35.33: Raziel Kjaergaard moved to X: 3 and Y: 8
+10/04/2020 22.35.33: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.33: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.33: These actors died this turn:
+Kain Mohamed
+
+10/04/2020 22.35.34: Hero Alba is at X: 1 and Y: 0.
+10/04/2020 22.35.37: Hero Alba moved to X: 1 and Y: 1
+10/04/2020 22.35.37: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.35.37: End of Hero Alba's turn 
+
+10/04/2020 22.35.37: Stinus Meyer is at X: 3 and Y: 1.
+10/04/2020 22.35.37: Stinus Meyer moved to X: 4 and Y: 1
+10/04/2020 22.35.38: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.38: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.38: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.38: Raziel Kjaergaard is at X: 3 and Y: 8.
+10/04/2020 22.35.38: Raziel Kjaergaard moved to X: 3 and Y: 7
+10/04/2020 22.35.38: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.38: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.39: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.39: No one died this turn!
+
+10/04/2020 22.35.39: Hero Alba is at X: 1 and Y: 1.
+10/04/2020 22.35.40: Hero Alba moved to X: 2 and Y: 1
+10/04/2020 22.35.40: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.40: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 3 Slash
+10/04/2020 22.35.41: End of Hero Alba's turn 
+
+10/04/2020 22.35.41: Stinus Meyer is at X: 4 and Y: 1.
+10/04/2020 22.35.41: Stinus Meyer moved to X: 4 and Y: 0
+10/04/2020 22.35.41: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.41: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 11 Slash
+10/04/2020 22.35.42: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.42: Raziel Kjaergaard is at X: 3 and Y: 7.
+10/04/2020 22.35.42: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.35.42: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.42: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.42: No one died this turn!
+
+10/04/2020 22.35.43: Hero Alba is at X: 2 and Y: 1.
+10/04/2020 22.35.44: Hero Alba moved to X: 3 and Y: 1
+10/04/2020 22.35.44: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.44: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 3 Slash
+10/04/2020 22.35.45: End of Hero Alba's turn 
+
+10/04/2020 22.35.45: Stinus Meyer is at X: 4 and Y: 0.
+10/04/2020 22.35.45: Stinus Meyer moved to X: 4 and Y: 1
+10/04/2020 22.35.45: Stinus Meyer stepped on an empty tile!
+10/04/2020 22.35.45: The empty tile contained an event!
+Stinus Meyer found and equipped a weapon! 
+MainHand 14 Slash
+10/04/2020 22.35.45: End of Stinus Meyer's turn 
+
+10/04/2020 22.35.46: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.35.46: Raziel Kjaergaard moved to X: 2 and Y: 6
+10/04/2020 22.35.46: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.46: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.46: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.46: No one died this turn!
+
+10/04/2020 22.35.46: Hero Alba is at X: 3 and Y: 1.
+10/04/2020 22.35.48: Hero Alba moved to X: 4 and Y: 1
+10/04/2020 22.35.48: Hero Alba collided with Stinus Meyer
+10/04/2020 22.35.48: Hero Alba entered combat with Stinus Meyer!
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 45health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 40health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 35health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 30health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 25health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 20health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 15health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 10health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer is at 5health.
+10/04/2020 22.35.48: Stinus Meyer attacked Hero Alba for 0 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.35.48: Hero Alba attacked Stinus Meyer for 5 damage. 
+Stinus Meyer died!
+10/04/2020 22.35.48: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.48: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 11 Slash
+10/04/2020 22.35.48: End of Hero Alba's turn 
+
+10/04/2020 22.35.49: Raziel Kjaergaard is at X: 2 and Y: 6.
+10/04/2020 22.35.49: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.35.49: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.49: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.49: These actors died this turn:
+Stinus Meyer
+
+10/04/2020 22.35.50: Hero Alba is at X: 4 and Y: 1.
+10/04/2020 22.35.51: Hero Alba moved to X: 4 and Y: 2
+10/04/2020 22.35.51: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.51: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 6 Slash
+10/04/2020 22.35.52: End of Hero Alba's turn 
+
+10/04/2020 22.35.52: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.35.52: Raziel Kjaergaard moved to X: 3 and Y: 5
+10/04/2020 22.35.52: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.52: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 6 Slash
+10/04/2020 22.35.53: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.53: No one died this turn!
+
+10/04/2020 22.35.53: Hero Alba is at X: 4 and Y: 2.
+10/04/2020 22.35.53: Hero Alba moved to X: 4 and Y: 3
+10/04/2020 22.35.53: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.53: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 12 Slash
+10/04/2020 22.35.54: End of Hero Alba's turn 
+
+10/04/2020 22.35.54: Raziel Kjaergaard is at X: 3 and Y: 5.
+10/04/2020 22.35.54: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.35.54: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.55: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.55: No one died this turn!
+
+10/04/2020 22.35.55: Hero Alba is at X: 4 and Y: 3.
+10/04/2020 22.35.55: Hero Alba moved to X: 4 and Y: 4
+10/04/2020 22.35.55: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.35.56: End of Hero Alba's turn 
+
+10/04/2020 22.35.56: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.35.56: Raziel Kjaergaard moved to X: 4 and Y: 6
+10/04/2020 22.35.56: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.35.56: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 6 Slash
+10/04/2020 22.35.57: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.57: No one died this turn!
+
+10/04/2020 22.35.57: Hero Alba is at X: 4 and Y: 4.
+10/04/2020 22.35.57: Hero Alba moved to X: 4 and Y: 5
+10/04/2020 22.35.57: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.57: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 13 Slash
+10/04/2020 22.35.57: End of Hero Alba's turn 
+
+10/04/2020 22.35.58: Raziel Kjaergaard is at X: 4 and Y: 6.
+10/04/2020 22.35.58: Raziel Kjaergaard moved to X: 3 and Y: 6
+10/04/2020 22.35.58: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.35.58: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.35.58: No one died this turn!
+
+10/04/2020 22.35.59: Hero Alba is at X: 4 and Y: 5.
+10/04/2020 22.35.59: Hero Alba moved to X: 4 and Y: 6
+10/04/2020 22.35.59: Hero Alba stepped on an empty tile!
+10/04/2020 22.35.59: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 4 Slash
+10/04/2020 22.35.59: End of Hero Alba's turn 
+
+10/04/2020 22.35.59: Raziel Kjaergaard is at X: 3 and Y: 6.
+10/04/2020 22.36.00: Raziel Kjaergaard moved to X: 3 and Y: 5
+10/04/2020 22.36.00: Raziel Kjaergaard stepped on an empty tile!
+10/04/2020 22.36.00: The empty tile contained an event!
+Raziel Kjaergaard found and equipped a weapon! 
+MainHand 11 Slash
+10/04/2020 22.36.00: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.36.00: No one died this turn!
+
+10/04/2020 22.36.00: Hero Alba is at X: 4 and Y: 6.
+10/04/2020 22.36.00: Hero Alba moved to X: 4 and Y: 5
+10/04/2020 22.36.01: Hero Alba stepped on an empty tile!
+10/04/2020 22.36.01: The empty tile contained an event!
+Hero Alba found and equipped a weapon! 
+MainHand 2 Slash
+10/04/2020 22.36.01: End of Hero Alba's turn 
+
+10/04/2020 22.36.01: Raziel Kjaergaard is at X: 3 and Y: 5.
+10/04/2020 22.36.01: Raziel Kjaergaard moved to X: 3 and Y: 4
+10/04/2020 22.36.01: Raziel Kjaergaard entered a Dungeon!
+10/04/2020 22.36.01: There are 2 enemies in the dungeon.
+10/04/2020 22.36.01: Raziel Kjaergaard entered combat with Klärchen Bonde!
+10/04/2020 22.36.01: Raziel Kjaergaard attacked Klärchen Bonde for 2 damage. 
+Klärchen Bonde died!
+10/04/2020 22.36.01: Raziel Kjaergaard is looting Klärchen Bonde...
+10/04/2020 22.36.01: Raziel Kjaergaard found and equipped Head 8!
+10/04/2020 22.36.01: Raziel Kjaergaard found and equipped MainHand 13 Slash!
+10/04/2020 22.36.01: Raziel Kjaergaard is resting... Healed to full health 75
+10/04/2020 22.36.02: Raziel Kjaergaard entered combat with Nanika Johansson!
+10/04/2020 22.36.02: Raziel Kjaergaard attacked Nanika Johansson for 18 damage. 
+Nanika Johansson died!
+10/04/2020 22.36.02: Raziel Kjaergaard is looting Nanika Johansson...
+10/04/2020 22.36.02: Raziel Kjaergaard found and equipped Head 13!
+10/04/2020 22.36.02: Raziel Kjaergaard found and equipped Shoulder 13!
+10/04/2020 22.36.02: Raziel Kjaergaard found and equipped Chest 12!
+10/04/2020 22.36.02: Raziel Kjaergaard found and equipped MainHand 7 Slash!
+10/04/2020 22.36.02: Raziel Kjaergaard is resting... Healed to full health 75
+10/04/2020 22.36.02: Raziel Kjaergaard defeated the Dungeon!
+10/04/2020 22.36.02: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.36.02: No one died this turn!
+
+10/04/2020 22.36.02: Hero Alba is at X: 4 and Y: 5.
+10/04/2020 22.36.03: Hero Alba moved to X: 4 and Y: 4
+10/04/2020 22.36.03: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.36.03: End of Hero Alba's turn 
+
+10/04/2020 22.36.03: Raziel Kjaergaard is at X: 3 and Y: 4.
+10/04/2020 22.36.03: Raziel Kjaergaard moved to X: 2 and Y: 4
+10/04/2020 22.36.03: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.36.04: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.36.04: No one died this turn!
+
+10/04/2020 22.36.04: Hero Alba is at X: 4 and Y: 4.
+10/04/2020 22.36.04: Hero Alba moved to X: 3 and Y: 4
+10/04/2020 22.36.04: Hero Alba entered a Dungeon!
+10/04/2020 22.36.04: There are 2 enemies in the dungeon.
+10/04/2020 22.36.04: Hero Alba entered combat with Malic Asmussen!
+10/04/2020 22.36.04: Hero Alba and Malic Asmussen are evenly matched and decided to make peace... for now.
+10/04/2020 22.36.04: Hero Alba is resting... Healed to full health 125
+10/04/2020 22.36.04: Hero Alba entered combat with Renana Nissen!
+10/04/2020 22.36.04: Hero Alba attacked Renana Nissen for 34 damage. 
+Renana Nissen died!
+10/04/2020 22.36.04: Hero Alba is looting Renana Nissen...
+10/04/2020 22.36.04: Hero Alba found and equipped Head 2!
+10/04/2020 22.36.04: Hero Alba found and equipped MainHand 12 Slash!
+10/04/2020 22.36.04: Hero Alba is resting... Healed to full health 125
+10/04/2020 22.36.04: Hero Alba defeated the Dungeon!
+10/04/2020 22.36.05: End of Hero Alba's turn 
+
+10/04/2020 22.36.05: Raziel Kjaergaard is at X: 2 and Y: 4.
+10/04/2020 22.36.05: Raziel Kjaergaard moved to X: 2 and Y: 3
+10/04/2020 22.36.05: Raziel Kjaergaard entered a town and healed up. Raziel Kjaergaard is at full health 75.
+10/04/2020 22.36.06: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.36.06: No one died this turn!
+
+10/04/2020 22.36.06: Hero Alba is at X: 3 and Y: 4.
+10/04/2020 22.36.07: Hero Alba moved to X: 3 and Y: 3
+10/04/2020 22.36.07: Hero Alba entered a town and healed up. Hero Alba is at full health 125.
+10/04/2020 22.36.07: End of Hero Alba's turn 
+
+10/04/2020 22.36.07: Raziel Kjaergaard is at X: 2 and Y: 3.
+10/04/2020 22.36.08: Raziel Kjaergaard moved to X: 3 and Y: 3
+10/04/2020 22.36.08: Raziel Kjaergaard collided with Hero Alba
+10/04/2020 22.36.08: Raziel Kjaergaard entered combat with Hero Alba!
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 68health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 61health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 54health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 47health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 40health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 33health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 26health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 19health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 12health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard is at 5health.
+10/04/2020 22.36.08: Raziel Kjaergaard attacked Hero Alba for -8 damage. 
+Hero Alba is at 125health.
+10/04/2020 22.36.08: Hero Alba attacked Raziel Kjaergaard for 7 damage. 
+Raziel Kjaergaard died!
+10/04/2020 22.36.08: End of Raziel Kjaergaard's turn 
+
+10/04/2020 22.36.08: These actors died this turn:
+Raziel Kjaergaard
+
+10/04/2020 22.36.09: The game is over...
+The winner is Hero Alba congratiolations!

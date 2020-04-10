@@ -46,8 +46,7 @@ namespace MiniFramework2d.WorldObjects
                 Rest(dungeonCrawler);
                 Logger.Log($"{dungeonCrawler.Name} is resting... Healed to full health {dungeonCrawler.HealthCurrent}");
             }
-
-            Logger.Log($"{dungeonCrawler.Name} defeated the Dungeon!");
+            if(!dungeonCrawler.Dead) Logger.Log($"{dungeonCrawler.Name} defeated the Dungeon!");
         }
 
         private void EnterDungeon()

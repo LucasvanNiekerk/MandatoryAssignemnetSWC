@@ -28,8 +28,8 @@ namespace MiniFramework2d.WorldObjects
             if (ContainsEvent)
             {
                 Weapon weaponFound = WeaponFactory.GetWeapon(WeaponType.MainHand, AttackType.Slash);
-                actor.EquipNewWeapon(weaponFound);
-                Logger.Log($"The empty tile contained an event!\n{actor.Name} found and equipped a weapon! \n{weaponFound}");
+                var looted = actor.EquipNewWeapon(weaponFound);
+                if(looted) Logger.Log($"The empty tile contained an event!\n{actor.Name} found and equipped a weapon! \n{weaponFound}");
             }
         }
     }
