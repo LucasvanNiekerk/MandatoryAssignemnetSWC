@@ -1,25 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 
 namespace MiniFramework2d.Utilities
 {
     public static class RandomInformation
     {
         private static Random rng = new Random(DateTime.Now.Millisecond);
+
+        private static readonly string namePath = Directory.GetParent(Configuration.LogPath).Parent.Parent.FullName + "\\MiniFramework2d\\Utilities\\Names\\";
+        private static readonly string[] maleNames = File.ReadAllLines(namePath + "drengenavne.txt");
+        private static readonly string[] femaleNames = File.ReadAllLines(namePath + "pigenavne.txt");
+        private static readonly string[] sirNames = File.ReadAllLines(namePath + "efternavne.txt");
+
         public static string Name()
         {
-            List<string> words = new List<string>()
+            if (rng.Next(2) == 1)
             {
-                "Fire",
-                "Ligtning",
-                "Water",
-                "Earth",
-                "Light"
-            };
-
-            return words[rng.Next(words.Count - 1)];
-
+                return maleNames[rng.Next(maleNames.Length)] + " " + sirNames[rng.Next(sirNames.Length)];
+            }
+            else
+            {
+                return femaleNames[rng.Next(femaleNames.Length)] + " " + sirNames[rng.Next(sirNames.Length)];
+            }
         }
+
+
+
         public static string Description(string type)
         {
             List<string> words = new List<string>()

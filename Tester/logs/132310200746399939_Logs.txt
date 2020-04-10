@@ -1,0 +1,5 @@
+10/04/2020 21.21.32: Game start!
+There are 5 actors alive!
+
+10/04/2020 21.21.33: Hero Alba is at X: 5 and Y: 5.
+10/04/2020 21.21.46: Player exited the game...

@@ -6,7 +6,7 @@ namespace Tester
     {
         static void Main(string[] args)
         {
-            Console.Title = "RNGesus";  
+            Console.Title = "RNGesus";
             Worker worker = new Worker();
             worker.Start();
 

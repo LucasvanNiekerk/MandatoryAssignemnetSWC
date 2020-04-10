@@ -1,14 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace MiniFramework2d.Utilities
 {
     public static class Configuration
     {
-        public static readonly string LogPath = Directory.GetParent(Environment.CurrentDirectory).Parent?.Parent?.FullName + "\\logs\\";
+        private static readonly string ExeDirectory = Environment.CurrentDirectory;
+        public static readonly string LogPath = FindDirectory(ExeDirectory) + "\\logs\\";
         public static readonly string LogFileName = DateTime.Now.ToFileTimeUtc() + "_Logs.txt";
+
+        private static string FindDirectory(string currentDirectory)
+        {
+            string tempDirectory = Directory.GetParent(currentDirectory).FullName;
+            if (!tempDirectory.EndsWith("Tester")) tempDirectory = FindDirectory(tempDirectory);
+            return tempDirectory;
+        }
 
         public const int TurnDelay = 500;
 

@@ -101,22 +101,26 @@ namespace MiniFramework2d.Abstracts
             return this.Position.Equals(obj.Position);
         }
 
-        public void EquipNewGear(Gear gear)
+        public bool EquipNewGear(Gear gear)
         {
             if (gear != null)
             {
-                //_equipment.EquipGear(gear);
                 _equipment.EquipOnlyIfBetterGear(gear);
+                return true;
             }
+
+            return false;
         }
 
-        public void EquipNewWeapon(Weapon weapon)
+        public bool EquipNewWeapon(Weapon weapon)
         {
             if (weapon != null)
             {
-                //_equipment.EquipWeapon(weapon);
                 _equipment.EquipOnlyIfBetterWeapon(weapon);
+                return true;
             }
+
+            return false;
         }
 
         public (List<Gear> gear, List<Weapon> weapons) DropItems()

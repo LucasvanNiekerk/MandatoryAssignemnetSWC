@@ -95,20 +95,20 @@ namespace MiniFramework2d.WorldObjects
             {
                 if (gear != null)
                 {
-                    dungeonCrawler.EquipNewGear(gear);
+                    bool looted = dungeonCrawler.EquipNewGear(gear);
 
                     anyGear = true;
-                    Logger.Log($"{dungeonCrawler.Name} found and equipped {gear}!");
+                    if(looted) Logger.Log($"{dungeonCrawler.Name} found and equipped {gear}!");
                 }
             });
             enemy.DropItems().weapons?.ForEach(weapon =>
             {
                 if (weapon != null)
                 {
-                    dungeonCrawler.EquipNewWeapon(weapon);
+                    bool looted = dungeonCrawler.EquipNewWeapon(weapon);
 
                     anyWeapons = true;
-                    Logger.Log($"{dungeonCrawler.Name} found and equipped {weapon}!");
+                    if(looted) Logger.Log($"{dungeonCrawler.Name} found and equipped {weapon}!");
                 }
             });
 
