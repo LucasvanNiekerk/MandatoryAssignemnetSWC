@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Threading;
 using MiniFramework2d;
 using MiniFramework2d.Enums;
@@ -21,7 +20,6 @@ namespace Tester
             Player player = GeneratePlayer();
             List<Enemy> enemies = GenerateEnemies(world);
 
-
             GameInitiazier game = new GameInitiazier(world, player, enemies);
 
             Thread thread = new Thread(StartLogger);
@@ -32,13 +30,9 @@ namespace Tester
 
         private void StartLogger()
         {
-            Thread.Sleep(750);
-            string workingDirectory = Environment.CurrentDirectory;
-            // or: Directory.GetCurrentDirectory() gives the same result
+            Thread.Sleep(500);
+            string exeDirectory = FindPath.FindDirectory("MandatoryAssignemnetSWC", extraDirectory: "\\TesterLogger\\bin\\Release\\netcoreapp2.1\\win-x86\\TesterLogger.exe");
 
-            // This will get the current PROJECT directory
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.Parent.FullName;
-            string exeDirectory = projectDirectory + "\\TesterLogger\\bin\\Release\\netcoreapp2.1\\win-x86\\TesterLogger.exe";
             var process = new Process
             {
                 StartInfo =
